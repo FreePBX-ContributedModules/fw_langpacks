@@ -1,0 +1,17 @@
+<module>
+	<rawname>fw_ari</rawname>
+	<name>FreePBX ARI Framework</name>
+	<version>2.5.0</version>
+	<candisable>no</candisable>
+	<canuninstall>no</canuninstall>
+	<changelog>
+		*2.5.0* #3104 and First release of fw_ari
+	</changelog>
+	<description>
+		This module provides a facility to install bug fixes to the ARI code that is not otherwise housed in a module, it used to be part of framework but has been removed to isolate ARI from Framework updates.
+	</description>
+	<type>setup</type>
+	<category>Basic</category>
+	<location>release/2.5/fw_ari-2.5.0.tgz</location>
+	<md5sum>33ba4ab8c67cdb3d6c98f834aca62401</md5sum>
+</module>
