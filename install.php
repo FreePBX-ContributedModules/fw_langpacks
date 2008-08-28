@@ -42,8 +42,6 @@ if (! function_exists('debug')) {
 	}
 }
 
-include dirname(__FILE__)."/libfreepbx.install.php";
-
 global $amp_conf;
 global $asterisk_conf;
 
