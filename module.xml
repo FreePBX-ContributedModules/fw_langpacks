@@ -13,6 +13,6 @@
 	</description>
 	<type>setup</type>
 	<category>Basic</category>
-	<location>release/2.5/fw_ari-2.5.0.tgz</location>
-	<md5sum>f2c1b29be32e06a29adf6bde2ce3251c</md5sum>
+	<location>release/2.5/fw_ari-2.5.0.1.tgz</location>
+	<md5sum>e21f1a1c946c0712f77710fd016ed70b</md5sum>
 </module>
