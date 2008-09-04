@@ -1,10 +1,11 @@
 <module>
 	<rawname>fw_ari</rawname>
 	<name>FreePBX ARI Framework</name>
-	<version>2.5.0.1</version>
+	<version>2.5.0.2</version>
 	<candisable>no</candisable>
 	<canuninstall>no</canuninstall>
 	<changelog>
+		*2.5.0.2* r6505, #3161 SQL Injection vulnerability that could allow and authenticated user to access all CDRs and recordings
 		*2.5.0.1* remove inclusion of libfreepbx.install.php in install script resulting in warnings
 		*2.5.0* #3104 and First release of fw_ari
 	</changelog>
