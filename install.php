@@ -2,8 +2,8 @@
 
 // HELPER FUNCTIONS:
 
-function fw_ari_print_errors($src, $dst, $errors) {
-	echo "error copying fw_ari files:<br />'cp -rf' from src: '$src' to dst: '$dst'...details follow<br />";
+function fw_langpacks_print_errors($src, $dst, $errors) {
+	echo "error copying fw_langpacks files:<br />'cp -rf' from src: '$src' to dst: '$dst'...details follow<br />";
 	foreach ($errors as $error) {
 		echo "$error<br />";
 	}
@@ -43,7 +43,6 @@ if (! function_exists('debug')) {
 }
 
 global $amp_conf;
-global $asterisk_conf;
 
 $debug = false;
 $dryrun = false;
@@ -65,15 +64,48 @@ if (!function_exists('version_compare_freepbx')) {
 }
 
 /*
- * fw_ari install script
+ * fw_langpacks install script
+ *
+ * for each installed component on the target system, copy localization files using the -u option
+ * on copy which will only copy them if our copy is newer then the destination which protects
+ * from overwriting destination files that have been updated by the user.
  */
+	$htdocs_source = dirname(__FILE__)."/htdocs";
+	$htdocs_dest = $amp_conf['AMPWEBROOT'];
 
-	$htdocs_ari_source = dirname(__FILE__)."/htdocs_ari/*";
-	$htdocs_ari_dest = $amp_conf['AMPWEBROOT']."/recordings";
+	// Always copy main FreePBX amp.po/mo files
+	//
+	out(sprintf(_("Preparing to copy %s to %s"),'i18n',"$htdocs_dest/admin"));
+	$htdocs_copy[] = array("source" => "$htdocs_source/admin/i18n", "dest" => "$htdocs_dest/admin");
 
-	exec("cp -rf $htdocs_ari_source $htdocs_ari_dest 2>&1",$out,$ret);
-	if ($ret != 0) {
-		fw_ari_print_errors($htdocs_panel_source, $htdocs_panel_dest, $out);
+	// If ARI is there copy those
+	//
+	if (is_dir("$htdocs_dest/recordings")) {
+		$htdocs_copy[] = array("source" => "$htdocs_source/recordings", "dest" => "$htdocs_dest");
+		out(sprintf(_("Preparing to copy %s to %s"),'recordings',"$htdocs_dest"));
+	} else {
+		out(sprintf(_("No destination directory %s to copy %s to"),"$htodcs_dest/recordings","recordings"));
 	}
 
+	// Now for each module we have, make sure the module is in the destination as we don't want to create
+	// empty destinatino folders with just i18n directories.
+	//
+	$dir = opendir($htdocs_source.'/admin/modules');
+	while ($file = readdir($dir)) {
+		if (is_dir("$htdocs_dest/admin/modules/$file") && ($file != ".") && ($file != "..")) {
+			out(sprintf(_("Preparing to copy %s to %s"),"$file","$htdocs_dest/admin/modules"));
+			$htdocs_copy[] = array("source" => "$htdocs_source/admin/modules/$file", "dest" => "$htdocs_dest/admin/modules");
+		} else if ($file != "." && $file != "..") {
+			out(sprintf(_("No destination directory %s to copy %s to"),"$htodcs_dest/modules/$file","$file"));
+		}
+	}
+
+	foreach ($htdocs_copy as $translations) {
+		exec("cp -ru ".$translations['source']." ".$translations['dest']." 2>&1",$out,$ret);
+		if ($ret != 0) {
+			fw_langpacks_print_errors($translations['source'], $translations['dest'], $out);
+		} else {
+			out(sprintf(_("Updated %s"),basename($translations['source'])));
+		}
+	}
 ?>

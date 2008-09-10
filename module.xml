@@ -1,20 +1,15 @@
 <module>
-	<rawname>fw_ari</rawname>
-	<name>FreePBX ARI Framework</name>
-	<version>2.5.0.3</version>
-	<candisable>no</candisable>
-	<canuninstall>no</canuninstall>
+	<rawname>fw_langpacks</rawname>
+	<name>FreePBX Localization Updates</name>
+	<version>2.5.0</version>
 	<changelog>
-		*2.5.0.3* #3165, #3077, #2609 and additional fixes related to #3161
-		*2.5.0.2* r6505, #3161 SQL Injection vulnerability that could allow and authenticated user to access all CDRs and recordings
-		*2.5.0.1* remove inclusion of libfreepbx.install.php in install script resulting in warnings
-		*2.5.0* #3104 and First release of fw_ari
+		*2.5.0* First release
 	</changelog>
 	<description>
-		This module provides a facility to install bug fixes to the ARI code that is not otherwise housed in a module, it used to be part of framework but has been removed to isolate ARI from Framework updates.
+		This module provides a facility to install new and updated localization translations for all componets in FreePBX. Localization i18n translations are still kept with each module and other components such as the User Portal (ARI). This provides an easy ability to bring all components up-to-date without the need of publishing dozens of modules for every minor change. The localization updates used will be the latest available for all modules and will not consider the curent version you are running.
 	</description>
 	<type>setup</type>
 	<category>Basic</category>
-	<location>release/2.5/fw_ari-2.5.0.3.tgz</location>
-	<md5sum>d345aeed410ba8180dc7b877412b8d03</md5sum>
+	<location>release/2.5/fw_langpacks-2.5.0.tgz</location>
+	<md5sum>4d31935ef78a53c3b70bb8ce32f0c8cd</md5sum>
 </module>
