@@ -14,6 +14,6 @@
 	</description>
 	<type>setup</type>
 	<category>Basic</category>
-	<location>release/2.5/fw_langpacks-2.5.1.1.tgz</location>
-	<md5sum>5ae5019203ed92e17a518c7b8f97bd6b</md5sum>
+	<location>release/2.6/fw_langpacks-2.5.1.1.tgz</location>
+	<md5sum>9da6bc2fdd46858837dc4f78e325b6cf</md5sum>
 </module>
