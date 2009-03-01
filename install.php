@@ -84,7 +84,7 @@ if (!function_exists('version_compare_freepbx')) {
 		$htdocs_copy[] = array("source" => "$htdocs_source/recordings", "dest" => "$htdocs_dest");
 		out(sprintf(_("Preparing to copy %s to %s"),'recordings',"$htdocs_dest"));
 	} else {
-		out(sprintf(_("No destination directory %s to copy %s to"),"$htodcs_dest/recordings","recordings"));
+		out(sprintf(_("No destination directory %s to copy %s to"),"$htdocs_dest/recordings","recordings"));
 	}
 
 	// Now for each module we have, make sure the module is in the destination as we don't want to create
@@ -96,7 +96,7 @@ if (!function_exists('version_compare_freepbx')) {
 			out(sprintf(_("Preparing to copy %s to %s"),"$file","$htdocs_dest/admin/modules"));
 			$htdocs_copy[] = array("source" => "$htdocs_source/admin/modules/$file", "dest" => "$htdocs_dest/admin/modules");
 		} else if ($file != "." && $file != "..") {
-			out(sprintf(_("No destination directory %s to copy %s to"),"$htodcs_dest/modules/$file","$file"));
+			out(sprintf(_("No destination directory %s to copy %s to"),"$htdocs_dest/modules/$file","$file"));
 		}
 	}
 
