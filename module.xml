@@ -1,8 +1,9 @@
 <module>
 	<rawname>fw_langpacks</rawname>
 	<name>FreePBX Localization Updates</name>
-	<version>2.5.1.1</version>
+	<version>2.6.0.0</version>
 	<changelog>
+		*2.6.0.0* localization updates
 		*2.5.1.1* Spanish, Italian, Bulgarian, Hungarian updates
 		*2.5.1* Swedish, Russian updates
 		*2.5.0.2* Swedish updates, Russian
@@ -14,6 +15,6 @@
 	</description>
 	<type>setup</type>
 	<category>Basic</category>
-	<location>release/2.6/fw_langpacks-2.5.1.1.tgz</location>
-	<md5sum>9da6bc2fdd46858837dc4f78e325b6cf</md5sum>
+	<location>release/2.6/fw_langpacks-2.6.0.0.tgz</location>
+	<md5sum>5f4f98da96e32835ab13ee1853a6747e</md5sum>
 </module>
