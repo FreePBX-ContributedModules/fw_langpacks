@@ -1,10 +1,11 @@
 <module>
 	<rawname>fw_langpacks</rawname>
 	<name>FreePBX Localization Updates</name>
-	<version>2.6.0.2</version>
+	<version>2.6.0.3</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<changelog>
+		*2.6.0.3* more language updates
 		*2.6.0.2* french and other updates
 		*2.6.0.1* updates
 		*2.6.0.0* localization updates
@@ -19,6 +20,6 @@
 	</description>
 	<type>setup</type>
 	<category>Basic</category>
-	<location>release/2.6/fw_langpacks-2.6.0.2.tgz</location>
-	<md5sum>a75d6550fec4dc8ce373baacb4ceb917</md5sum>
+	<location>release/2.6/fw_langpacks-2.6.0.3.tgz</location>
+	<md5sum>2713402981cbd5bbe436a5d0e1865f1c</md5sum>
 </module>
