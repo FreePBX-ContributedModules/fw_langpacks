@@ -1,14 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is part of FreePBX.
 #
-#, fuzzy
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for fw_langpacks
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-25 19:37+0200\n"
+"POT-Creation-Date: 2010-02-18 22:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,21 +28,37 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: install.php:78 install.php:85 install.php:96
+#: fw_langpacks/fw_langpacks.i18n.php:5
+msgid "FreePBX Localization Updates"
+msgstr ""
+
+#: fw_langpacks/fw_langpacks.i18n.php:7
+msgid "Basic"
+msgstr ""
+
+#: fw_langpacks/fw_langpacks.i18n.php:9
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations for all components in FreePBX. Localization i18n translations "
+"are still kept with each module and other components such as the User Portal "
+"(ARI). This provides an easy ability to bring all components up-to-date "
+"without the need of publishing dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules and "
+"will not consider the current version you are running."
+msgstr ""
+
+#: fw_langpacks/install.php:78 fw_langpacks/install.php:85
+#: fw_langpacks/install.php:96
 #, php-format
 msgid "Preparing to copy %s to %s"
 msgstr ""
 
-#: install.php:87 install.php:99
+#: fw_langpacks/install.php:87 fw_langpacks/install.php:99
 #, php-format
 msgid "No destination directory %s to copy %s to"
 msgstr ""
 
-#: install.php:108
+#: fw_langpacks/install.php:108
 #, php-format
 msgid "Updated %s"
 msgstr ""
-
-msgid "FreePBX Localization Updates"
-msgstr "MAJ d'internationalisation FreePBX"
-
