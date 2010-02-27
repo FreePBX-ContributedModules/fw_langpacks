@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 13:45+0100\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,15 +28,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: fw_langpacks/fw_langpacks.i18n.php:5
 msgid "FreePBX Localization Updates"
 msgstr ""
 
-#: fw_langpacks/fw_langpacks.i18n.php:7
 msgid "Basic"
 msgstr ""
 
-#: fw_langpacks/fw_langpacks.i18n.php:9
 msgid ""
 "This module provides a facility to install new and updated localization "
 "translations for all components in FreePBX. Localization i18n translations "
@@ -47,18 +44,14 @@ msgid ""
 "will not consider the current version you are running."
 msgstr ""
 
-#: fw_langpacks/install.php:78 fw_langpacks/install.php:85
-#: fw_langpacks/install.php:96
 #, php-format
 msgid "Preparing to copy %s to %s"
 msgstr ""
 
-#: fw_langpacks/install.php:87 fw_langpacks/install.php:99
 #, php-format
 msgid "No destination directory %s to copy %s to"
 msgstr ""
 
-#: fw_langpacks/install.php:108
 #, php-format
 msgid "Updated %s"
 msgstr ""
