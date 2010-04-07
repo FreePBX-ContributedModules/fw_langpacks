@@ -73,6 +73,11 @@ if (!function_exists('version_compare_freepbx')) {
 	$htdocs_source = dirname(__FILE__)."/htdocs";
 	$htdocs_dest = $amp_conf['AMPWEBROOT'];
 
+	if (!file_exists($htdocs_source)) {
+    out(sprintf(_("No directory %s, install script not needed"),$htdocs_source);
+    return true;
+  }
+
 	// Always copy main FreePBX amp.po/mo files
 	//
 	out(sprintf(_("Preparing to copy %s to %s"),'i18n',"$htdocs_dest/admin"));
