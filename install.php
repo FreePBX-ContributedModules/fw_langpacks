@@ -74,7 +74,7 @@ if (!function_exists('version_compare_freepbx')) {
 	$htdocs_dest = $amp_conf['AMPWEBROOT'];
 
 	if (!file_exists($htdocs_source)) {
-    out(sprintf(_("No directory %s, install script not needed"),$htdocs_source);
+    out(sprintf(_("No directory %s, install script not needed"),$htdocs_source));
     return true;
   }
 
