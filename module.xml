@@ -1,10 +1,11 @@
 <module>
 	<rawname>fw_langpacks</rawname>
 	<name>FreePBX Localization Updates</name>
-	<version>2.7.0.1</version>
+	<version>2.8.0.0</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<changelog>
+		*2.8.0.0* more language updates
 		*2.7.0.1* more language updates
 		*2.7.0.0* more language updates
 		*2.6.0.3* more language updates
@@ -22,6 +23,6 @@
 	</description>
 	<type>setup</type>
 	<category>Basic</category>
-	<location>release/2.7/fw_langpacks-2.7.0.1.tgz</location>
-	<md5sum>c2040f04de606b5314a719759093dd4a</md5sum>
+	<location>release/2.8/fw_langpacks-2.8.0.0.tgz</location>
+	<md5sum>70b8a410af53b839f1d1e9e10da03eb2</md5sum>
 </module>
