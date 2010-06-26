@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 17:34+0100\n"
+"POT-Creation-Date: 2010-06-22 19:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,6 +42,10 @@ msgid ""
 "without the need of publishing dozens of modules for every minor change. The "
 "localization updates used will be the latest available for all modules and "
 "will not consider the current version you are running."
+msgstr ""
+
+#, php-format
+msgid "No directory %s, install script not needed"
 msgstr ""
 
 #, php-format

@@ -1,13 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX Swedish language for fw_langpacks
+# Copyright (C) 2009, 2010 Mikael Carlsson
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-13 22:19+0200\n"
+"POT-Creation-Date: 2010-06-22 19:14+0200\n"
 "PO-Revision-Date: 2008-09-13 23:07+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
@@ -17,21 +30,38 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 
-#: install.php:78
-#: install.php:85
-#: install.php:96
+msgid "FreePBX Localization Updates"
+msgstr "FreePBX språkuppdatering"
+
+msgid "Basic"
+msgstr "Allmänt"
+
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations for all components in FreePBX. Localization i18n translations "
+"are still kept with each module and other components such as the User Portal "
+"(ARI). This provides an easy ability to bring all components up-to-date "
+"without the need of publishing dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules and "
+"will not consider the current version you are running."
+msgstr ""
+"Denna modul installerar nya och uppdaterade översättningar för alla komponeneter "
+"i FreePBX. Översättningar finns fortfarande i varje modul och i andra komponenter "
+"såsom ARI. Denna modul gör det enkelt att uppdatera översättningar utan att publicera "
+"uppdatering för moduler"
+
+#, php-format
+msgid "No directory %s, install script not needed"
+msgstr "Ingen katalog %s, installationsskriptet behövs ej"
+
 #, php-format
 msgid "Preparing to copy %s to %s"
 msgstr "Förbereder att kopiera %s till %s"
 
-#: install.php:87
-#: install.php:99
 #, php-format
 msgid "No destination directory %s to copy %s to"
 msgstr "Ingen destionationsmapp %s att kopiera %s till"
 
-#: install.php:108
 #, php-format
 msgid "Updated %s"
 msgstr "Uppdaterade %s"
-
