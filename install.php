@@ -8,40 +8,6 @@ function fw_langpacks_print_errors($src, $dst, $errors) {
 		echo "$error<br />";
 	}
 }
-
-if (! function_exists('out')) {
-	function out($text) {
-		echo $text."<br>";
-	}
-}
-
-if (! function_exists('outn')) {
-	function outn($text) {
-		echo $text;
-	}
-}
-
-if (! function_exists('error')) {
-	function error($text) {
-		echo "[ERROR] ".$text."<br>";
-	}
-}
-
-if (! function_exists('fatal')) {
-	function fatal($text) {
-		echo "[FATAL] ".$text."<br>";
-		exit(1);
-	}
-}
-
-if (! function_exists('debug')) {
-	function debug($text) {
-		global $debug;
-		
-		if ($debug) echo "[DEBUG-preDB] ".$text."<br>";
-	}
-}
-
 global $amp_conf;
 
 $debug = false;
