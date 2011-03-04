@@ -1,5 +1,6 @@
 <module>
 	<rawname>fw_langpacks</rawname>
+	<modtype>framework</modtype>
 	<repo>extended</repo>
 	<name>FreePBX Localization Updates</name>
 	<version>2.9.0.0</version>
