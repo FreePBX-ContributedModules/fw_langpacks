@@ -3,10 +3,11 @@
 	<modtype>framework</modtype>
 	<repo>extended</repo>
 	<name>FreePBX Localization Updates</name>
-	<version>2.9.0.0</version>
+	<version>2.9.0.1</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<changelog>
+		*2.9.0.1* #4404
 		*2.9.0.0* language updates
 		*2.8.0.1* language updates
 		*2.8.0.0* more language updates
@@ -27,6 +28,6 @@
 	</description>
 	<type>setup</type>
 	<category>Basic</category>
-	<location>release/2.9/fw_langpacks-2.9.0.0.tgz</location>
-	<md5sum>27df02a4525efe225d24ad260b2fb130</md5sum>
+	<location>release/2.9/fw_langpacks-2.9.0.1.tgz</location>
+	<md5sum>0af8db1213b31a811b30b757715e75f0</md5sum>
 </module>
