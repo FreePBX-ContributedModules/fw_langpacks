@@ -4,9 +4,12 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 // HELPER FUNCTIONS:
 
 function fw_langpacks_print_errors($src, $dst, $errors) {
-	echo "error copying fw_langpacks files:<br />'cp -rf' from src: '$src' to dst: '$dst'...details follow<br />";
+	out("error copying files:");
+	out(sprintf(_("'cp -rf' from src: '%s' to dst: '%s'...details follow"), $src, $dst));
+	freepbx_log(FPBX_LOG_ERROR, sprintf(_("fw_langpacks couldn't copy file to %s"),$dst));
 	foreach ($errors as $error) {
-		echo "$error<br />";
+		out("$error");
+		freepbx_log(FPBX_LOG_ERROR, _("cp error output: $error"));
 	}
 }
 global $amp_conf;
@@ -79,5 +82,17 @@ if (!function_exists('version_compare_freepbx')) {
 		} else {
 			out(sprintf(_("Updated %s"),basename($translations['source'])));
 		}
+	}
+
+	// We now delete the files, this makes sure that if someone had an unprotected system where they have not enabled
+	// the .htaccess files or otherwise allowed direct access, that these files are not around to possibly cause problems
+	//
+	out(_("fw_langpacks file install done, removing packages from module"));
+	unset($out);
+	exec("rm -rf $htdocs_source 2>&1",$out,$ret);
+	if ($ret != 0) {
+		out(_("an error occured removing the packaged files"));
+	} else {
+		out(_("files removed successfully"));
 	}
 ?>
