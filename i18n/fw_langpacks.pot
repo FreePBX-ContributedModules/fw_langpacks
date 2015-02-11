@@ -1,11 +1,15 @@
-# FreePBX language template
-# Copyright 2013 Schmooze Com Inc
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for fw_langpacks
+# Copyright (C) 2008-2015 Sangoma, Inc.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2015-02-11 17:58-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,34 +17,34 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "FreePBX Localization Updates"
+#: /usr/src/freepbx/fw_langpacks/install.php:10
+#, php-format
+msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
 msgstr ""
 
-msgid "Admin"
-msgstr ""
-
-msgid ""
-"This module provides a facility to install new and updated localization "
-"translations for all components in FreePBX. Localization i18n translations "
-"are still kept with each module and other components such as the User Portal "
-"(ARI). This provides an easy ability to bring all components up-to-date "
-"without the need of publishing dozens of modules for every minor change. The "
-"localization updates used will be the latest available for all modules and "
-"will not consider the current version you are running."
-msgstr ""
-
+#: /usr/src/freepbx/fw_langpacks/install.php:49
 #, php-format
 msgid "No directory %s, install script not needed"
 msgstr ""
 
-#, php-format
-msgid "Preparing to copy %s to %s"
-msgstr ""
-
-#, php-format
-msgid "No destination directory %s to copy %s to"
-msgstr ""
-
+#: /usr/src/freepbx/fw_langpacks/install.php:74
 #, php-format
 msgid "Updated %s"
+msgstr ""
+
+#: /usr/src/freepbx/fw_langpacks/install.php:86
+msgid "an error occured removing the packaged files"
+msgstr ""
+
+#: /usr/src/freepbx/fw_langpacks/install.php:88
+msgid "files removed successfully"
+msgstr ""
+
+#: /usr/src/freepbx/fw_langpacks/install.php:11
+#, php-format
+msgid "fw_langpacks couldn't copy file to %s"
+msgstr ""
+
+#: /usr/src/freepbx/fw_langpacks/install.php:82
+msgid "fw_langpacks file install done, removing packages from module"
 msgstr ""
