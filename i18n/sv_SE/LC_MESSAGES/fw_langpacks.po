@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 17:58-0500\n"
+"POT-Creation-Date: 2015-02-20 19:34-0500\n"
 "PO-Revision-Date: 2008-09-13 23:07+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
@@ -30,55 +30,60 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 
-#: /usr/src/freepbx/fw_langpacks/install.php:10
+#: install.php:10
 #, php-format
 msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
 msgstr ""
 
-#: /usr/src/freepbx/fw_langpacks/install.php:49
+#: fw_langpacks.i18n.php:4
+msgid "Admin"
+msgstr ""
+
+#: fw_langpacks.i18n.php:3
+msgid "FreePBX Localization Updates"
+msgstr "FreePBX språkuppdatering"
+
+#: install.php:49
 #, php-format
 msgid "No directory %s, install script not needed"
 msgstr "Ingen katalog %s, installationsskriptet behövs ej"
 
-#: /usr/src/freepbx/fw_langpacks/install.php:74
+#: fw_langpacks.i18n.php:5
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations for all components in FreePBX. Localization i18n translations "
+"are still kept with each module and other components such as the User Portal "
+"(ARI). This provides an easy ability to bring all components up-to-date "
+"without the need of publishing dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules and "
+"will not consider the current version you are running."
+msgstr ""
+"Denna modul installerar nya och uppdaterade översättningar för alla "
+"komponeneter i FreePBX. Översättningar finns fortfarande i varje modul och i "
+"andra komponenter såsom ARI. Denna modul gör det enkelt att uppdatera "
+"översättningar utan att publicera uppdatering för moduler"
+
+#: install.php:74
 #, php-format
 msgid "Updated %s"
 msgstr "Uppdaterade %s"
 
-#: /usr/src/freepbx/fw_langpacks/install.php:86
+#: install.php:86
 msgid "an error occured removing the packaged files"
 msgstr ""
 
-#: /usr/src/freepbx/fw_langpacks/install.php:88
+#: install.php:88
 msgid "files removed successfully"
 msgstr ""
 
-#: /usr/src/freepbx/fw_langpacks/install.php:11
+#: install.php:11
 #, php-format
 msgid "fw_langpacks couldn't copy file to %s"
 msgstr ""
 
-#: /usr/src/freepbx/fw_langpacks/install.php:82
+#: install.php:82
 msgid "fw_langpacks file install done, removing packages from module"
 msgstr ""
-
-#~ msgid "FreePBX Localization Updates"
-#~ msgstr "FreePBX språkuppdatering"
-
-#~ msgid ""
-#~ "This module provides a facility to install new and updated localization "
-#~ "translations for all components in FreePBX. Localization i18n "
-#~ "translations are still kept with each module and other components such as "
-#~ "the User Portal (ARI). This provides an easy ability to bring all "
-#~ "components up-to-date without the need of publishing dozens of modules "
-#~ "for every minor change. The localization updates used will be the latest "
-#~ "available for all modules and will not consider the current version you "
-#~ "are running."
-#~ msgstr ""
-#~ "Denna modul installerar nya och uppdaterade översättningar för alla "
-#~ "komponeneter i FreePBX. Översättningar finns fortfarande i varje modul "
-#~ "och i andra komponenter såsom ARI. Denna modul gör det enkelt att "
-#~ "uppdatera översättningar utan att publicera uppdatering för moduler"
 
 #~ msgid "Preparing to copy %s to %s"
 #~ msgstr "Förbereder att kopiera %s till %s"
