@@ -10,32 +10,34 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:34-0500\n"
-"PO-Revision-Date: 2015-02-20 19:34-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-03-31 08:03+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/fw_langpacks/es_ES/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: install.php:10
 #, php-format
 msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
-msgstr ""
+msgstr "'cp -ru' desde org: '%s' a dest: '%s'...siguen detalles"
 
 #: fw_langpacks.i18n.php:4
 msgid "Admin"
-msgstr ""
+msgstr "Admininstrador"
 
 #: fw_langpacks.i18n.php:3
 msgid "FreePBX Localization Updates"
-msgstr ""
+msgstr "Localización Actualizaciones FreePBX"
 
 #: install.php:49
 #, php-format
 msgid "No directory %s, install script not needed"
-msgstr ""
+msgstr "No directorio %s, no se requieres instalar script"
 
 #: fw_langpacks.i18n.php:5
 msgid ""
@@ -47,25 +49,34 @@ msgid ""
 "localization updates used will be the latest available for all modules and "
 "will not consider the current version you are running."
 msgstr ""
+"Este módulo proporciona una facilidad para instalar nuevas y actualizadas "
+"traducciones de localización para todos los componentes de FreePBX. "
+"Localizaciones i18n  todavía se mantienen con cada módulo y otros "
+"componentes tales como el portal del usuario (ARI). Esto proporciona una "
+"habilidad fácil para mantener todos los componentes al dia, sin la necesidad "
+"de publicar docenas de módulos para cada cambio menor. Las actualizaciones "
+"de localización utilizados serán los últimos disponibles para todos los "
+"módulos y no tendrá en cuenta la versión actual que está ejecutando."
 
 #: install.php:74
 #, php-format
 msgid "Updated %s"
-msgstr ""
+msgstr "Actualizado %s"
 
 #: install.php:86
 msgid "an error occured removing the packaged files"
-msgstr ""
+msgstr "un error a ocurrido removiendo los archivos del paquete"
 
 #: install.php:88
 msgid "files removed successfully"
-msgstr ""
+msgstr "archivos removidos satisfactoriamente"
 
 #: install.php:11
 #, php-format
 msgid "fw_langpacks couldn't copy file to %s"
-msgstr ""
+msgstr "fw_langpacks no pudo copiar archivos a %s"
 
 #: install.php:82
 msgid "fw_langpacks file install done, removing packages from module"
 msgstr ""
+"instalación de archivo fw_langpacks  hecha, removiendo paquetes del modulo"
