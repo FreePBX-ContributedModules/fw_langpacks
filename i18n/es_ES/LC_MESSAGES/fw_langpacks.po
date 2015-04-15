@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:34-0500\n"
-"PO-Revision-Date: 2015-03-31 08:03+0200\n"
-"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"PO-Revision-Date: 2015-04-15 00:02+0200\n"
+"Last-Translator: Daver <daverjorge46@gmail.com>\n"
 "Language-Team: Spanish "
 "<http://weblate.freepbx.org/projects/freepbx/fw_langpacks/es_ES/>\n"
 "Language: es_ES\n"
@@ -37,7 +37,7 @@ msgstr "Localización Actualizaciones FreePBX"
 #: install.php:49
 #, php-format
 msgid "No directory %s, install script not needed"
-msgstr "No directorio %s, no se requieres instalar script"
+msgstr "No directorio %s, no se requiere instalar script"
 
 #: fw_langpacks.i18n.php:5
 msgid ""
