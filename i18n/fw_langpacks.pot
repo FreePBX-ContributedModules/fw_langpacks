@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-17 14:26-0400\n"
+"POT-Creation-Date: 2015-04-17 14:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,9 +22,27 @@ msgstr ""
 msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
 msgstr ""
 
+#: fw_langpacks.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: fw_langpacks.i18n.php:4
+msgid "Localization Updates"
+msgstr ""
+
 #: install.php:49
 #, php-format
 msgid "No directory %s, install script not needed"
+msgstr ""
+
+#: fw_langpacks.i18n.php:8
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations. Localization i18n translations are still kept with each "
+"module. This provides an easy ability to bring all components up-to-date "
+"without the need to publish dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules "
+"regardless of the current version you are running."
 msgstr ""
 
 #: install.php:74

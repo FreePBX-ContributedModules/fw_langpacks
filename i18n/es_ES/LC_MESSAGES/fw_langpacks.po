@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-17 14:26-0400\n"
+"POT-Creation-Date: 2015-04-17 14:33-0400\n"
 "PO-Revision-Date: 2015-04-15 00:02+0200\n"
 "Last-Translator: Daver <daverjorge46@gmail.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
@@ -26,10 +26,28 @@ msgstr ""
 msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
 msgstr "'cp -ru' desde org: '%s' a dest: '%s'...siguen detalles"
 
+#: fw_langpacks.i18n.php:6
+msgid "Admin"
+msgstr "Admininstrador"
+
+#: fw_langpacks.i18n.php:4
+msgid "Localization Updates"
+msgstr ""
+
 #: install.php:49
 #, php-format
 msgid "No directory %s, install script not needed"
 msgstr "No directorio %s, no se requiere instalar script"
+
+#: fw_langpacks.i18n.php:8
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations. Localization i18n translations are still kept with each "
+"module. This provides an easy ability to bring all components up-to-date "
+"without the need to publish dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules "
+"regardless of the current version you are running."
+msgstr ""
 
 #: install.php:74
 #, php-format
@@ -53,9 +71,6 @@ msgstr "fw_langpacks no pudo copiar archivos a %s"
 msgid "fw_langpacks file install done, removing packages from module"
 msgstr ""
 "instalación de archivo fw_langpacks  hecha, removiendo paquetes del modulo"
-
-#~ msgid "Admin"
-#~ msgstr "Admininstrador"
 
 #~ msgid "FreePBX Localization Updates"
 #~ msgstr "Localización Actualizaciones FreePBX"
