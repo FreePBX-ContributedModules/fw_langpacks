@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:34-0500\n"
+"POT-Creation-Date: 2015-04-17 14:26-0400\n"
 "PO-Revision-Date: 2015-02-20 19:34-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,28 +22,9 @@ msgstr ""
 msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
 msgstr ""
 
-#: fw_langpacks.i18n.php:4
-msgid "Admin"
-msgstr ""
-
-#: fw_langpacks.i18n.php:3
-msgid "FreePBX Localization Updates"
-msgstr ""
-
 #: install.php:49
 #, php-format
 msgid "No directory %s, install script not needed"
-msgstr ""
-
-#: fw_langpacks.i18n.php:5
-msgid ""
-"This module provides a facility to install new and updated localization "
-"translations for all components in FreePBX. Localization i18n translations "
-"are still kept with each module and other components such as the User Portal "
-"(ARI). This provides an easy ability to bring all components up-to-date "
-"without the need of publishing dozens of modules for every minor change. The "
-"localization updates used will be the latest available for all modules and "
-"will not consider the current version you are running."
 msgstr ""
 
 #: install.php:74
