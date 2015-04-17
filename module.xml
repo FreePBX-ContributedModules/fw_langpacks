@@ -2,7 +2,7 @@
 	<rawname>fw_langpacks</rawname>
 	<modtype>framework</modtype>
 	<repo>extended</repo>
-	<name>FreePBX Localization Updates</name>
+	<name>Localization Updates</name>
 	<version>2.11.2</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
@@ -17,7 +17,7 @@
 		*2.9.0.0* language updates
 	</changelog>
 	<description>
-		This module provides a facility to install new and updated localization translations for all components in FreePBX. Localization i18n translations are still kept with each module and other components such as the User Portal (ARI). This provides an easy ability to bring all components up-to-date without the need of publishing dozens of modules for every minor change. The localization updates used will be the latest available for all modules and will not consider the current version you are running.
+		This module provides a facility to install new and updated localization translations. Localization i18n translations are still kept with each module. This provides an easy ability to bring all components up-to-date without the need to publish dozens of modules for every minor change. The localization updates used will be the latest available for all modules regardless of the current version you are running.
 	</description>
 	<category>Admin</category>
 	<location>release/2.11/fw_langpacks-2.11.0.0.tgz</location>
