@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 14:33-0400\n"
-"PO-Revision-Date: 2015-04-18 01:34+0200\n"
-"Last-Translator: Andrew <andrew.nagy@the159.com>\n"
-"Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
-"fw_langpacks/es_ES/>\n"
+"PO-Revision-Date: 2015-04-18 04:08+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/fw_langpacks/es_ES/>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
@@ -31,9 +31,8 @@ msgid "Admin"
 msgstr "Admininstrador"
 
 #: fw_langpacks.i18n.php:4
-#, fuzzy
 msgid "Localization Updates"
-msgstr "Localización Actualizaciones"
+msgstr "Actualizaciones de Localización"
 
 #: install.php:49
 #, php-format
@@ -41,7 +40,6 @@ msgid "No directory %s, install script not needed"
 msgstr "No directorio %s, no se requiere instalar script"
 
 #: fw_langpacks.i18n.php:8
-#, fuzzy
 msgid ""
 "This module provides a facility to install new and updated localization "
 "translations. Localization i18n translations are still kept with each "
@@ -52,11 +50,11 @@ msgid ""
 msgstr ""
 "Este módulo proporciona una facilidad para instalar nuevas y actualizadas "
 "traducciones de localización. Traducciones i18n localización todavía se "
-"mantienen con cada módulo. Esto proporciona una habilidad fácil de llevar "
-"todos los componentes hasta a la fecha, sin la necesidad de publicar docenas "
-"de módulos para cada cambio menor. Las actualizaciones de localización "
-"utilizados serán los últimos disponibles para todos los módulos, "
-"independientemente de la versión actual está ejecutando."
+"mantienen con cada módulo. Esto proporciona la capacidad de mantener todos "
+"los componentes al día, sin la necesidad de publicar docenas de módulos para "
+"cada cambio menor. Las actualizaciones de localización utilizados serán los "
+"últimos disponibles para todos los módulos, independientemente de la versión "
+"actual está ejecutando."
 
 #: install.php:74
 #, php-format
