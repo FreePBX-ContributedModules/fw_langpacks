@@ -1,0 +1,66 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for contactdir
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 19:12-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: contactdir.i18n.php:5
+#: contactdir.i18n.php:12
+msgid "Add servers users can import contacts from"
+msgstr ""
+
+#: contactdir.i18n.php:3
+#: contactdir.i18n.php:8
+msgid "Contact Directory"
+msgstr ""
+
+#: contactdir.i18n.php:6
+#: contactdir.i18n.php:14
+msgid "Contact Directory Servers"
+msgstr ""
+
+#: page.contactdir.php:104
+msgid ""
+"Enter the full url, including http/https, as you would would when access "
+"your Exchange server through OWA."
+msgstr ""
+
+#: page.contactdir.php:104
+msgid "Host"
+msgstr ""
+
+#: page.contactdir.php:100
+msgid "Name"
+msgstr ""
+
+#: page.contactdir.php:68
+msgid "Please choose what version of Exchange you would like to connect to."
+msgstr ""
+
+#: page.contactdir.php:100
+msgid ""
+"Please name this connection to differeniate between Exchange servers if you "
+"have mutlple servers setup."
+msgstr ""
+
+#: contactdir.i18n.php:4
+#: contactdir.i18n.php:10
+msgid "Settings"
+msgstr ""
+
+#: page.contactdir.php:68
+msgid "Type"
+msgstr ""

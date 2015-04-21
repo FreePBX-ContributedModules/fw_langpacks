@@ -1,0 +1,168 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for versionupgrade
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 20:07-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: page.versionupgrade.php:39
+#, php-format
+msgid "%s Upgrade Module"
+msgstr ""
+
+#: versionupgrade.i18n.php:6
+msgid "2.11 to 12 Upgrade Tool"
+msgstr ""
+
+#: page.versionupgrade.php:70
+#, php-format
+msgid ""
+"<h2 align='center' style='color:red'>WARNING - YOU WILL BE UPGRADED TO "
+"VERSION %s %s</h2><p>Please Make sure you have updated all modules before "
+"running this upgrader</p><p>This module will allow you to upgrade to FreePBX "
+"version %s from the current version, %s, that you are running.</p><p>The "
+"upgrade process is a simple but multi-step process that you should complete "
+"all at one time. As always when upgrading a system, it is advisable that you "
+"complete this process when the system is not actively being used.</p>The "
+"steps you will take are:<ol><li>Press the upgrade button below.</li><li>Go "
+"to <a href='config.php?display=modules'>Module Admin</a>, check for online "
+"updates, and upgrade the <b>FreePBX Framework</b> module ONLY from the "
+"online repository which will now be connected to version %s.</li><li>Now, "
+"Check for online updates again and upgrade all other modules that have "
+"upgrades available. If you get dependency warnings or FATAL ERRORS, just "
+"repeat the process until all your modules have been upgraded. ***AGAIN ALL "
+"MODULES MUST BE UPDATED***</li><li>Now press the Apply Configuration bar.</"
+"li><li>Finally you will want to run '<b>amportal a ma refreshsignatures</"
+"b>'</li></ol><p>   Once you have completed\n"
+"          these steps you will be upgraded to the new %s version and you may "
+"disable or remove this module if it does not do so automatically.</p>"
+msgstr ""
+
+#: page.versionupgrade.php:114
+#, php-format
+msgid ""
+"<p>You appear to have partially upgraded to version %s, your current version "
+"number is %s. The remaining steps you should take are:</p><ol><li>Go to <a "
+"href='config.php?display=modules&amp;online=1'>Module Admin</a>, and upgrade "
+"the <b>FreePBX Framework</b> module from the online repository. Do not "
+"upgrade other modules.</li><li>Check for online updates again and upgrade "
+"all other modules that have upgrades available. If you get dependency "
+"warnings, simply repeat the process until all modules are upgraded.</"
+"li><li>Press the Apply Configuration Changes bar.</li><li>Finally you will "
+"want to run '<b>amportal a ma refreshsignatures</b>'</li></ol><p>Once you "
+"have completed these steps you will be upgraded to the new %s version and "
+"you may disable or remove this module if it it does not do so automatically."
+"</p>"
+msgstr ""
+
+#: page.versionupgrade.php:118
+#, php-format
+msgid ""
+"<p>You appear to have upgraded Framework to version %s, your current version "
+"number is %s. You still need to upgrade the Core Module and any other "
+"modules that show upgrades available. The remaining steps you should take "
+"are:</p><ol><li>Check for online updates again and upgrade all other modules "
+"that have upgrades available including Core. If you get dependency warnings "
+"simply repeat the process until all modules are upgraded.</li><li>Press the "
+"Apply Configuration Changes bar.</li><li>Finally you will want to run "
+"'<b>amportal a ma refreshsignatures</b>'</li></ol><p>Once you have completed "
+"these steps you will be upgraded to the new %s version and you may disable "
+"or remove this module if it it does not do so automatically.</p>"
+msgstr ""
+
+#: versionupgrade.i18n.php:4
+msgid "Admin"
+msgstr ""
+
+#: install.php:29
+msgid "Blacklist Module MUST be updated before installing."
+msgstr ""
+
+#: page.versionupgrade.php:40
+msgid "Current Version Info (Updated each stage of upgrade process):"
+msgstr ""
+
+#: install.php:58 install.php:65
+msgid "Disabling cos for now..."
+msgstr ""
+
+#: install.php:51
+msgid "Disabling cxpanel for now..."
+msgstr ""
+
+#: install.php:40
+#, php-format
+msgid "FreePBX 12 Requires Asterisk 1.8 or higher! You have %s"
+msgstr ""
+
+#: install.php:44
+#, php-format
+msgid "FreePBX 12 Requires PHP 5.3.3 or higher! You have %s"
+msgstr ""
+
+#: page.versionupgrade.php:45
+msgid "FreePBX Base Version:"
+msgstr ""
+
+#: page.versionupgrade.php:61
+msgid "FreePBX Core Version:"
+msgstr ""
+
+#: page.versionupgrade.php:53
+msgid "FreePBX Framework Version:"
+msgstr ""
+
+#: versionupgrade.i18n.php:3
+msgid "FreePBX Upgrader"
+msgstr ""
+
+#: versionupgrade.i18n.php:5
+msgid ""
+"This module allows FreePBX 2.11 to be upgraded to FreePBX 12, the next major "
+"version."
+msgstr ""
+
+#: page.versionupgrade.php:87
+msgid "UPGRADE NOW"
+msgstr ""
+
+#: page.versionupgrade.php:74
+#, php-format
+msgid ""
+"WARNING: Version %s REQUIRES Asterisk Version %s or higher. You are running "
+"Asterisk %s and will not functionl properly unless you upgrade to %s or "
+"higher!"
+msgstr ""
+
+#: page.versionupgrade.php:101
+#, php-format
+msgid ""
+"You are about to upgrade your system to FreePBX %s %s. You can not reverse "
+"this process. Do you want to continue?"
+msgstr ""
+
+#: install.php:30
+#, php-format
+msgid "You have %s installed, 2.7.0.2 or higher is required."
+msgstr ""
+
+#: page.versionupgrade.php:125
+#, php-format
+msgid ""
+"You have successfully upgraded to FreePBX version %s. If this module has not "
+"been automatically disabled you should go to <a href='config.php?"
+"display=modules&amp;online=1'>Module Admin</a> and disabled or uninstall "
+"this module at this time"
+msgstr ""

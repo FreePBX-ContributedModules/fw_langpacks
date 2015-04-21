@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Xavier Ourcière <xourciere@propolys.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MODULE MANAGER\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 19:40-0500\n"
+"PO-Revision-Date: 2009-01-22 13:45+0100\n"
+"Last-Translator: Jouniaux <c.jouniaux@techtelecom.fr>\n"
+"Language-Team: LANGUE <c.jouniaux@techtelecom.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: page.manager.php:61 page.manager.php:91 page.manager.php:99
+msgid "Add Manager"
+msgstr "Ajout Administrateur"
+
+#: manager.i18n.php:3
+msgid "Asterisk API"
+msgstr ""
+
+#: manager.i18n.php:5
+msgid "Asterisk Manager Users"
+msgstr ""
+
+#: page.manager.php:196
+msgid "Check All/None."
+msgstr "Sélectionner Tout/Aucun"
+
+#: page.manager.php:124 page.manager.php:129 page.manager.php:134
+#: page.manager.php:139 page.manager.php:144 page.manager.php:149
+#: page.manager.php:154 page.manager.php:162 page.manager.php:167
+#: page.manager.php:172 page.manager.php:177 page.manager.php:182
+#: page.manager.php:187
+msgid "Check Asterisk documentation."
+msgstr "Consultez la documentation Asterisk."
+
+#: functions.inc.php:226
+msgid "Choose Manager:"
+msgstr ""
+
+#: functions.inc.php:226
+msgid "Choose the user that PHPAGI will use to connect the Asterisk API."
+msgstr ""
+
+#: page.manager.php:74
+#, php-format
+msgid "Conflicting FreePBX Manager of %s has not been added"
+msgstr ""
+
+#: page.manager.php:89
+msgid "Delete Manager"
+msgstr "Supprimer Administrateur"
+
+#: page.manager.php:109
+msgid "Deny:"
+msgstr "Interdire:"
+
+#: page.manager.php:99
+msgid "Edit Manager"
+msgstr "Editer Administrateur"
+
+#: page.manager.php:109
+msgid ""
+"If you want to deny many hosts or networks, use & char as separator.<br/><br/"
+">Example: 192.168.1.0/255.255.255.0&10.0.0.0/255.0.0.0"
+msgstr ""
+"Si vous souhaitez interdire plusieurs serveurs ou réseaux, utilisez le "
+"caractère & comme séparateur.<br/><br>Exemple: "
+"192.168.1.0/255.255.255.0&10.0.0.0/255.0.0.0"
+
+#: page.manager.php:113
+msgid ""
+"If you want to permit many hosts or networks, use & char as separator. Look "
+"at deny example."
+msgstr ""
+"Si vous souhaitez autoriser plusieurs serveurs ou réseaux, utilisez le "
+"caractère & comme séparateur."
+
+#: install.php:23
+msgid "Increasing read field size if needed.."
+msgstr ""
+
+#: install.php:32
+msgid "Increasing write field size if needed.."
+msgstr ""
+
+#: page.manager.php:72
+msgid "Manager"
+msgstr "Administrateur"
+
+#: page.manager.php:101
+msgid "Manager name:"
+msgstr "Nom de l'Administrateur:"
+
+#: page.manager.php:105
+msgid "Manager secret:"
+msgstr "Mot de passe Administrateur:"
+
+#: page.manager.php:88
+msgid "Manager:"
+msgstr "Administrateur:"
+
+#: page.manager.php:101
+msgid "Name of the manager without space."
+msgstr "Nom de l'administrateur sans espace."
+
+#: page.manager.php:105
+msgid "Password for the manager."
+msgstr "Mot de passe de l'Administrateur."
+
+#: page.manager.php:113
+msgid "Permit:"
+msgstr "autoriser:"
+
+#: page.manager.php:122
+msgid "Read"
+msgstr "Lecture"
+
+#: page.manager.php:117
+msgid "Rights"
+msgstr "Droits d'accès"
+
+#: manager.i18n.php:4
+msgid "Settings"
+msgstr ""
+
+#: page.manager.php:205
+msgid "Submit Changes"
+msgstr ""
+
+#: page.manager.php:308
+msgid "The manager deny is not well formatted."
+msgstr ""
+
+#: page.manager.php:306
+msgid "The manager name cannot be empty or may not have any space in it."
+msgstr ""
+
+#: page.manager.php:309
+msgid "The manager permit is not well formatted."
+msgstr ""
+
+#: page.manager.php:310
+msgid "The manager read field is not well formatted."
+msgstr ""
+
+#: page.manager.php:307
+msgid "The manager secret cannot be empty."
+msgstr ""
+
+#: page.manager.php:311
+msgid "The manager write field is not well formatted."
+msgstr ""
+
+#: functions.inc.php:193 functions.inc.php:199
+msgid "This manager already exists"
+msgstr "Cet administrateur existe déjà"
+
+#: page.manager.php:122
+msgid "Write"
+msgstr "Ecriture"
+
+#: page.manager.php:72
+msgid "deleted"
+msgstr "supprimé"
+
+#: install.php:27 install.php:36
+msgid "error encountered, not altered"
+msgstr ""
+
+#: install.php:29 install.php:38
+msgid "ok"
+msgstr ""
+
+#~ msgid "Error writing the manager additional file."
+#~ msgstr "Erreur d'écriture du fichier de configuration."

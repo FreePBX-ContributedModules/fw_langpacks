@@ -1,0 +1,613 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for campon
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 19:05-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.inc.php:410
+#, php-format
+msgid "%s Incoming Requests"
+msgstr ""
+
+#: functions.inc.php:390
+#, php-format
+msgid "%s Outgoing Requests"
+msgstr ""
+
+#: functions.inc.php:385
+#, php-format
+msgid "%s sec"
+msgstr ""
+
+#: functions.inc.php:346
+msgid "1 min"
+msgstr ""
+
+#: functions.inc.php:351
+msgid "10 min"
+msgstr ""
+
+#: functions.inc.php:358 functions.inc.php:373
+msgid "100 min"
+msgstr ""
+
+#: functions.inc.php:359 functions.inc.php:374
+msgid "2 hrs"
+msgstr ""
+
+#: functions.inc.php:347
+msgid "2 min"
+msgstr ""
+
+#: functions.inc.php:354 functions.inc.php:369
+msgid "20 min"
+msgstr ""
+
+#: functions.inc.php:343
+msgid "20 sec"
+msgstr ""
+
+#: functions.inc.php:360 functions.inc.php:375
+msgid "3 hrs"
+msgstr ""
+
+#: functions.inc.php:348
+msgid "3 min"
+msgstr ""
+
+#: functions.inc.php:344
+msgid "30 sec"
+msgstr ""
+
+#: functions.inc.php:361 functions.inc.php:376
+msgid "4 hrs"
+msgstr ""
+
+#: functions.inc.php:349
+msgid "4 min"
+msgstr ""
+
+#: functions.inc.php:355 functions.inc.php:370
+msgid "40 min"
+msgstr ""
+
+#: functions.inc.php:345
+msgid "45 sec"
+msgstr ""
+
+#: functions.inc.php:362 functions.inc.php:363 functions.inc.php:377
+#: functions.inc.php:378
+msgid "5 hrs"
+msgstr ""
+
+#: functions.inc.php:350
+msgid "5 min"
+msgstr ""
+
+#: functions.inc.php:364 functions.inc.php:379
+msgid "6 hrs"
+msgstr ""
+
+#: functions.inc.php:356 functions.inc.php:371
+msgid "60 min"
+msgstr ""
+
+#: functions.inc.php:365 functions.inc.php:380
+msgid "7 hrs"
+msgstr ""
+
+#: functions.inc.php:366 functions.inc.php:381
+msgid "8 hrs"
+msgstr ""
+
+#: functions.inc.php:357 functions.inc.php:372
+msgid "80 min"
+msgstr ""
+
+#: campon.i18n.php:53
+msgid ""
+"Affects Asterisk: cc_agent_dialstring. If not set a callback request will be "
+"dialed straight to the speciifc device that made the call. If using 'native' "
+"technology support this may be the peferred mode. The 'internal' (Callback "
+"Standard) option will intiate a call back to the caller just as if someone "
+"else on the system placed the call, which means the call can pursue Follow-"
+"Me. To avoid Follow-Me setting, choose 'extension' (Callback Extension)."
+msgstr ""
+
+#: functions.inc.php:500
+msgid ""
+"Affects Asterisk: cc_agent_dialstring. With 'Callback Device Directly' a "
+"callback request will be dialed straight to the specific device that made "
+"the call. If using 'Native Technology Support' this may be the preferred "
+"mode. The 'Callback Standard' option will initiate a call back to the caller "
+"just as if someone else on the system placed the call, which means the call "
+"can pursue Follow-Me. To avoid Follow-Me setting, choose 'Callback "
+"Extension'."
+msgstr ""
+
+#: campon.i18n.php:73 functions.inc.php:508
+msgid ""
+"An optional Alert-Info setting that can be used to send to the extension "
+"being called back."
+msgstr ""
+
+#: campon.i18n.php:61
+msgid ""
+"An optional Alert-Info setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to 'generic' device'"
+msgstr ""
+
+#: functions.inc.php:505
+msgid ""
+"An optional Alert-Info setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'Generic Device' and 'Caller "
+"Callback Mode' is not set to 'Callback Device Directly'."
+msgstr ""
+
+#: functions.inc.php:509
+msgid ""
+"An optional CID Prepend setting that can be used to send to the extension "
+"being called back."
+msgstr ""
+
+#: campon.i18n.php:77
+msgid ""
+"An optional CID Prepend setting that can be used to send to the extension "
+"being called back.'"
+msgstr ""
+
+#: functions.inc.php:506
+msgid ""
+"An optional CID Prepend setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'Generic Device' and 'Caller "
+"Callback Mode' is not set to 'Callback Device Directly'."
+msgstr ""
+
+#: campon.i18n.php:65
+msgid ""
+"An optional CID Prepend setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'generic' device'"
+msgstr ""
+
+#: functions.inc.php:405
+msgid "Announce"
+msgstr ""
+
+#: functions.inc.php:445
+msgid "Announce Callback Extension"
+msgstr ""
+
+#: campon.i18n.php:67
+msgid "Announce the Callee Extension"
+msgstr ""
+
+#: campon.i18n.php:41
+msgid ""
+"Asteirsk: ccbs_available_timer. How long a call completion request will "
+"remain active, in seconds, before expiring if the phone rang busy when first "
+"attempting the call."
+msgstr ""
+
+#: campon.i18n.php:45
+msgid ""
+"Asteirsk: ccnr_available_timer. How long a call completion request will "
+"remain active, in seconds, before expiring if the phone was simply "
+"unanswered when first attempting the call."
+msgstr ""
+
+#: campon.i18n.php:29
+msgid ""
+"Asterisk: cc_agent_policy. Used to enable Camp-On for a user and set the "
+"Technology Mode that will be used when engaging the feature. In most cases "
+"'generic' should be chosen unless you have phones designed to work with "
+"channel specific capabilities."
+msgstr ""
+
+#: functions.inc.php:451
+msgid ""
+"Asterisk: cc_agent_policy. Used to enable Camp-On for this user and set the "
+"Technology Mode that will be used when engaging the feature. In most cases "
+"'Generic Device' should be chosen unless you have phones designed to work "
+"with channel specific capabilities."
+msgstr ""
+
+#: functions.inc.php:499
+msgid ""
+"Asterisk: cc_max_agents. Only valid for when using 'Native Technology "
+"Support' for Caller Policy. This is the number of outstanding Call "
+"Completion requests that can be pending to different extensions. With "
+"'Generic Device' mode you can only have a single request outstanding and "
+"this will be ignored."
+msgstr ""
+
+#: campon.i18n.php:57
+msgid ""
+"Asterisk: cc_max_agents. Only valid for when using 'native' technology "
+"support for Caller Policy. This is the number of outstanding Call Completion "
+"requests that can be pending to different extensions. With 'generic' device "
+"mode you can only have a single request outstanding and this will be ignored."
+msgstr ""
+
+#: campon.i18n.php:81 functions.inc.php:502
+msgid ""
+"Asterisk: cc_max_monitors. This is the maximum number of callers that are "
+"allowed to queue up call completion requests against this extension."
+msgstr ""
+
+#: campon.i18n.php:33
+msgid ""
+"Asterisk: cc_monitor_policy. Used to control if other phones are allowed to "
+"Camp On to an extension. If so, it sets the technology mode used to monitor "
+"the availability of the extension. If no specific technology support is "
+"available then it should be set to a 'generic'. In this mode, a callback "
+"will be initiated to the extension when it changes from an InUse state to "
+"NotInUse. If it was busy when first attempted, this will be when the current "
+"call has eneded. If it simply did not answer, then this will be the next "
+"time this phone is used to make or answer a call and then hangs up. It is "
+"possible to set this to take advantage of 'native' technology support if "
+"available and automatically fallback to 'generic' whe not by setting it to "
+"'always'."
+msgstr ""
+
+#: functions.inc.php:452
+msgid ""
+"Asterisk: cc_monitor_policy. Used to control if other phones are allowed to "
+"Camp On to this extension. If so, it sets the technology mode used to "
+"monitor the availability of the extension. If no specific technology support "
+"is available then it should be set to a 'Generic Device'. In this mode, a "
+"callback will be initiated to this extension when it changes from an InUse "
+"state to NotInUse. If it was busy when first attempted, this will be when "
+"the current call has ended. If it simply did not answer, then this will be "
+"the next time this phone is used to make or answer a call and then hangs up. "
+"It is possible to set this to take advantage of 'Native Technology Support' "
+"if available and automatically fallback to the 'Generic Mode' when not."
+msgstr ""
+
+#: functions.inc.php:495
+msgid ""
+"Asterisk: cc_offer_timer. How long after dialing an extension a user has to "
+"make a call completion request."
+msgstr ""
+
+#: campon.i18n.php:37
+msgid ""
+"Asterisk: cc_offer_timer. How many seconds after dialing an extenion a user "
+"has to make a call completion request."
+msgstr ""
+
+#: campon.i18n.php:49
+msgid ""
+"Asterisk: cc_recall_timer. How long in seconds to ring back a caller who's "
+"Caller Policy is set to 'Generic Device'. This has no affect if set to any "
+"other setting."
+msgstr ""
+
+#: functions.inc.php:498
+msgid ""
+"Asterisk: cc_recall_timer. How long to ring back a caller who's Caller "
+"Policy is set to 'Generic Device'. This has no affect if to any other "
+"setting."
+msgstr ""
+
+#: functions.inc.php:496
+msgid ""
+"Asterisk: ccbs_available_timer. How long a call completion request will "
+"remain active before expiring if the phone rang busy when first attempting "
+"the call."
+msgstr ""
+
+#: functions.inc.php:497
+msgid ""
+"Asterisk: ccnr_available_timer. How long a call completion request will "
+"remain active before expiring if the phone was simply unanswered when first "
+"attempting the call."
+msgstr ""
+
+#: campon.i18n.php:83
+msgid "BLF Camp-On Available State"
+msgstr ""
+
+#: campon.i18n.php:91
+msgid "BLF Camp-On Busy Caller State"
+msgstr ""
+
+#: campon.i18n.php:87
+msgid "BLF Camp-On Pending State"
+msgstr ""
+
+#: campon.i18n.php:95
+msgid "BLF Camp-On Recalling State"
+msgstr ""
+
+#: functions.inc.php:454
+msgid "Call Camp-On Services"
+msgstr ""
+
+#: functions.inc.php:446
+msgid "Callback Alert-Info"
+msgstr ""
+
+#: functions.inc.php:447
+msgid "Callback CID Prepend"
+msgstr ""
+
+#: functions.inc.php:394
+msgid "Callback Device Directly"
+msgstr ""
+
+#: functions.inc.php:396
+msgid "Callback Extension (no Follow-Me)"
+msgstr ""
+
+#: functions.inc.php:395
+msgid "Callback Standard"
+msgstr ""
+
+#: functions.inc.php:448
+msgid "Callee Alert-Info"
+msgstr ""
+
+#: functions.inc.php:449
+msgid "Callee CID Prepend"
+msgstr ""
+
+#: functions.inc.php:436
+msgid "Callee Policy"
+msgstr ""
+
+#: campon.i18n.php:31
+msgid "Callee Policy Default"
+msgstr ""
+
+#: functions.inc.php:443
+msgid "Caller Callback Mode"
+msgstr ""
+
+#: functions.inc.php:435
+msgid "Caller Policy"
+msgstr ""
+
+#: campon.i18n.php:27
+msgid "Caller Policy Default"
+msgstr ""
+
+#: functions.inc.php:438
+msgid "Caller Timeout to Request"
+msgstr ""
+
+#: campon.i18n.php:35
+msgid "Caller Timeout to Request Default"
+msgstr ""
+
+#: campon.i18n.php:3 campon.i18n.php:7 install.php:6
+msgid "Camp-On"
+msgstr ""
+
+#: install.php:8
+msgid "Camp-On Cancel"
+msgstr ""
+
+#: campon.i18n.php:15
+msgid "Camp-On Module"
+msgstr ""
+
+#: install.php:7
+msgid "Camp-On Request"
+msgstr ""
+
+#: install.php:9
+msgid "Camp-On Toggle"
+msgstr ""
+
+#: campon.i18n.php:59
+msgid "Default Callback Alert-Info"
+msgstr ""
+
+#: campon.i18n.php:63
+msgid "Default Callback CID Prepend"
+msgstr ""
+
+#: campon.i18n.php:71
+msgid "Default Callee Alert-Info"
+msgstr ""
+
+#: campon.i18n.php:75
+msgid "Default Callee CID Prepend"
+msgstr ""
+
+#: campon.i18n.php:51
+msgid "Default Caller Callback Mode"
+msgstr ""
+
+#: campon.i18n.php:55
+msgid "Default Max Camped-On Extensions"
+msgstr ""
+
+#: campon.i18n.php:79
+msgid "Default Max Queued Callers"
+msgstr ""
+
+#: campon.i18n.php:47
+msgid "Default Time to Ring Back Caller"
+msgstr ""
+
+#: functions.inc.php:338 functions.inc.php:399
+msgid "Disable Camp-On"
+msgstr ""
+
+#: functions.inc.php:457
+msgid "Forcing default settings"
+msgstr ""
+
+#: functions.inc.php:339 functions.inc.php:400
+msgid "Generic Device"
+msgstr ""
+
+#: campon.i18n.php:21
+msgid ""
+"If this is set to 'generic' or 'always' then it will be possible to attempt "
+"call completion requests when dialing non-extensions such as ring groups and "
+"other possible destinations that could work with call completion. Setting "
+"this will bypass any Callee Policies and can result in inconsistent "
+"behavior. If set, 'generic' is the most common, 'always' will attempt to use "
+"technology specific capabilities if the called extension uses a channel that "
+"supports that."
+msgstr ""
+
+#: functions.inc.php:439
+msgid "Max Camp-On Life Busy"
+msgstr ""
+
+#: campon.i18n.php:39
+msgid "Max Camp-On Life Busy Default"
+msgstr ""
+
+#: functions.inc.php:440
+msgid "Max Camp-On Life No Answer"
+msgstr ""
+
+#: campon.i18n.php:43
+msgid "Max Camp-On Life No Answer Default"
+msgstr ""
+
+#: functions.inc.php:442
+msgid "Max Camped-On Extensions"
+msgstr ""
+
+#: functions.inc.php:444
+msgid "Max Queued Callers"
+msgstr ""
+
+#: campon.i18n.php:13
+msgid "Maximum Active Camp-On Requests"
+msgstr ""
+
+#: functions.inc.php:340 functions.inc.php:401
+msgid "Native Technology Support"
+msgstr ""
+
+#: functions.inc.php:402
+msgid "Native Where Available"
+msgstr ""
+
+#: campon.i18n.php:19
+msgid "Non Extensions Callee Policy"
+msgstr ""
+
+#: campon.i18n.php:23
+msgid "Only Use Default Camp-On Settings"
+msgstr ""
+
+#: functions.inc.php:511
+msgid "Please enter a valid Alert-Info"
+msgstr ""
+
+#: functions.inc.php:512
+msgid "Please enter a valid CID Prefix"
+msgstr ""
+
+#: campon.i18n.php:4 campon.i18n.php:9
+msgid "Settings"
+msgstr ""
+
+#: functions.inc.php:406
+msgid "Silent"
+msgstr ""
+
+#: campon.i18n.php:17
+msgid ""
+"System wide maximum number of outstanding Camp-On requests that can be "
+"active. This limit is useful on a system that may have memory constraints "
+"since the internal state machine takes up system resources relative to the "
+"number of active requests it has to track. Restart Asterisk for changes to "
+"take effect."
+msgstr ""
+
+#: functions.inc.php:458
+msgid ""
+"The following settings are being used for all extensions. To configure "
+"individually set 'Only Use Default Camp-On Settings' to false on the "
+"Advanced Settings page. Active settings:"
+msgstr ""
+
+#: campon.i18n.php:85
+msgid ""
+"This is the state that will be set for BLF subscriptions after attempting a "
+"call while it is still possible to Camp-On to the last called number, prior "
+"to the offer_timer expiring. Restart Asterisk for changes to take effect."
+msgstr ""
+
+#: campon.i18n.php:93
+msgid ""
+"This is the state that will be set for BLF subscriptions once the callee "
+"becomes available if the caller is not busy. Restart Asterisk for changes to "
+"take effect."
+msgstr ""
+
+#: campon.i18n.php:89
+msgid ""
+"This is the state that will be set for BLF subscriptions upon a successful "
+"Camp-On request, pending a callback when the party becomes available. "
+"Restart Asterisk for changes to take effect."
+msgstr ""
+
+#: campon.i18n.php:5 campon.i18n.php:11
+msgid ""
+"This module implements the Call Completion Supplemental Services (CCSS) "
+"often referred to as Call Camping or Camp-On. It allows a caller to request "
+"the system call them back when a busy or non-responding extension becomes "
+"available. Requires Asterisk 1.8 or higher."
+msgstr ""
+
+#: functions.inc.php:441
+msgid "Time to Ring Back Caller"
+msgstr ""
+
+#: campon.i18n.php:69
+msgid ""
+"When set to true the target extension being called will be announced upone "
+"answering the Callback prior to ringing the extension. Setting this to false "
+"will go directly to ringing the extension, the CID information will still "
+"reflect who is being called back."
+msgstr ""
+
+#: functions.inc.php:504
+msgid ""
+"Whether or not to announce the extension that is being called back when the "
+"phone is picked up."
+msgstr ""
+
+#: campon.i18n.php:25
+msgid ""
+"You can force all extensions on a system to only used the default Camp-On "
+"settings. When in this mode, the individual settings will not be shown on "
+"the extension page. If there were unique settings previously configured, the "
+"data will be retained but not used unless you switch this back to false. "
+"With this set, the Caller Policy (cc_agent_policy) and Callee Policy "
+"(cc_monitor_policy) settings will still be configurable for each user so you "
+"can still enable/disable Call Camping ability on select extensions."
+msgstr ""
