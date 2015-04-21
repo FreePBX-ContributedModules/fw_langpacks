@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-17 14:33-0400\n"
+"POT-Creation-Date: 2015-04-21 14:52-0400\n"
 "PO-Revision-Date: 2015-04-18 04:08+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
@@ -34,7 +34,7 @@ msgstr "Admininstrador"
 msgid "Localization Updates"
 msgstr "Actualizaciones de Localización"
 
-#: install.php:49
+#: install.php:50 install.php:95
 #, php-format
 msgid "No directory %s, install script not needed"
 msgstr "No directorio %s, no se requiere instalar script"
@@ -56,16 +56,16 @@ msgstr ""
 "últimos disponibles para todos los módulos, independientemente de la versión "
 "actual está ejecutando."
 
-#: install.php:74
+#: install.php:75 install.php:120
 #, php-format
 msgid "Updated %s"
 msgstr "Actualizado %s"
 
-#: install.php:86
+#: install.php:87 install.php:132
 msgid "an error occured removing the packaged files"
 msgstr "un error a ocurrido removiendo los archivos del paquete"
 
-#: install.php:88
+#: install.php:89 install.php:134
 msgid "files removed successfully"
 msgstr "archivos removidos satisfactoriamente"
 
@@ -74,10 +74,17 @@ msgstr "archivos removidos satisfactoriamente"
 msgid "fw_langpacks couldn't copy file to %s"
 msgstr "fw_langpacks no pudo copiar archivos a %s"
 
-#: install.php:82
-msgid "fw_langpacks file install done, removing packages from module"
+#: install.php:83
+msgid "fw_langpacks mo file install done, removing packages from module"
 msgstr ""
-"instalación de archivo fw_langpacks  hecha, removiendo paquetes del modulo"
+
+#: install.php:128
+msgid "fw_langpacks po file install done, removing packages from module"
+msgstr ""
+
+#~ msgid "fw_langpacks file install done, removing packages from module"
+#~ msgstr ""
+#~ "instalación de archivo fw_langpacks  hecha, removiendo paquetes del modulo"
 
 #~ msgid "FreePBX Localization Updates"
 #~ msgstr "Localización Actualizaciones FreePBX"
