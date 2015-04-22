@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 19:34-0400\n"
-"PO-Revision-Date: 2015-04-21 19:21+0200\n"
+"POT-Creation-Date: 2015-04-21 15:08-0400\n"
+"PO-Revision-Date: 2015-04-22 19:30+0200\n"
 "Last-Translator: philippebolduc <philippe@florenceinc.com>\n"
 "Language-Team: French "
 "<http://weblate.freepbx.org/projects/freepbx/ucp/fr_FR/>\n"
@@ -254,7 +254,7 @@ msgstr "MNO"
 msgid "Module Settings"
 msgstr "Paramètres du module"
 
-#: htdocs/includes/Ajax.class.php:131
+#: htdocs/includes/Ajax.class.php:133
 msgid "Module or Command were null. Check your code."
 msgstr "Module ou commande nulle. Vérifiez votre code."
 
@@ -376,7 +376,7 @@ msgstr "Style et Logos"
 
 #: htdocs/assets/js/ucp.js:920
 msgid "Submit"
-msgstr "Envoyer"
+msgstr "Soumettre"
 
 #: htdocs/views/templates/phone.php:69
 msgid "TUV"
