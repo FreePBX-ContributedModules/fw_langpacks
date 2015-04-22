@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-17 14:33-0400\n"
+"POT-Creation-Date: 2015-04-21 14:52-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,8 @@ msgstr ""
 msgid "Localization Updates"
 msgstr ""
 
-#: install.php:49
+#: install.php:50
+#: install.php:95
 #, php-format
 msgid "No directory %s, install script not needed"
 msgstr ""
@@ -45,16 +46,19 @@ msgid ""
 "regardless of the current version you are running."
 msgstr ""
 
-#: install.php:74
+#: install.php:75
+#: install.php:120
 #, php-format
 msgid "Updated %s"
 msgstr ""
 
-#: install.php:86
+#: install.php:87
+#: install.php:132
 msgid "an error occured removing the packaged files"
 msgstr ""
 
-#: install.php:88
+#: install.php:89
+#: install.php:134
 msgid "files removed successfully"
 msgstr ""
 
@@ -63,6 +67,10 @@ msgstr ""
 msgid "fw_langpacks couldn't copy file to %s"
 msgstr ""
 
-#: install.php:82
-msgid "fw_langpacks file install done, removing packages from module"
+#: install.php:83
+msgid "fw_langpacks mo file install done, removing packages from module"
+msgstr ""
+
+#: install.php:128
+msgid "fw_langpacks po file install done, removing packages from module"
 msgstr ""
