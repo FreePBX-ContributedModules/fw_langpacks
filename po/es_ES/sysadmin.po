@@ -1,0 +1,672 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for sysadmin
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-19 08:17+1000\n"
+"PO-Revision-Date: 2015-04-25 08:16+0200\n"
+"Last-Translator: Victor <victor.martinez@neocenter.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/fpbxc/sysadmin/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+#, php-format
+msgid "%s - Access to provisioning files. Default port 84"
+msgstr ""
+
+#, php-format
+msgid "%s - Default port 88"
+msgstr ""
+
+#, php-format
+msgid "%s - Default port 96"
+msgstr ""
+
+#, php-format
+msgid ""
+"%s - Legacy Aastra XML provisioning. <strong><i>Deprecated</i></strong>."
+msgstr ""
+
+#, php-format
+msgid "%s - User Control Panel. Default port 81"
+msgstr ""
+
+#, php-format
+msgid "%s - Web port controlling this system. Default port 80"
+msgstr ""
+
+#, php-format
+msgid "%s Server"
+msgstr ""
+
+#, php-format
+msgid "(%s Zend Resets remaining)"
+msgstr ""
+
+msgid "(1 Zend Reset remaining)"
+msgstr ""
+
+#, php-format
+msgid "(Free Upgrades until %s)"
+msgstr ""
+
+msgid "(No Zend Resets remaining)"
+msgstr ""
+
+msgid "15 Minutes"
+msgstr ""
+
+msgid "30 Minutes"
+msgstr ""
+
+msgid ""
+"<p><strong>This is a HA Machine. You can not change the hostname of this, or "
+"the other, machine.</strong></p>"
+msgstr ""
+
+msgid ""
+"<p>HA <i>requires</i> the hostnames of both nodes to be freepbx-a and "
+"freepbx-b. Changing those hostnames will break the cluster, and destroy your "
+"settings. This is not a configurable option. Do not attempt to manually "
+"change the the hostnames of the nodes.</p>"
+msgstr ""
+
+msgid ""
+"ARE YOU SURE? You have entered a DEPLOYMENT ID NUMBER into the LOCATION NAME "
+"box. This is probably a mistake. Do you want to continue?"
+msgstr ""
+
+msgid "ASTDB Dump"
+msgstr ""
+
+msgid "Abnormal Call Volume"
+msgstr ""
+
+msgid "Abnormal Call Volume Notifications"
+msgstr ""
+
+msgid "Abnormalcallvolume found...Starting migration.."
+msgstr ""
+
+msgid "Abnormalcallvolume uninstalled successfully..."
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Activation"
+msgstr ""
+
+msgid "Activation Expiry"
+msgstr ""
+
+msgid "Address to send alert emails to."
+msgstr ""
+
+msgid "Admin"
+msgstr "Administrador"
+
+msgid "Alert Email"
+msgstr ""
+
+msgid "Annually"
+msgstr ""
+
+msgid "Asterisk Logs"
+msgstr ""
+
+msgid "Buy Now"
+msgstr ""
+
+msgid "Change log available at: "
+msgstr ""
+
+msgid "Checking available resets, Please wait..."
+msgstr ""
+
+msgid "Checking for abnormalcallvolume.."
+msgstr ""
+
+msgid "Core system error. Can't run manager"
+msgstr ""
+
+msgid "Current Hostname"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "DDNS"
+msgstr ""
+
+msgid "DDNS Services:"
+msgstr ""
+
+msgid ""
+"DDNS automatically assigns a unique hostname to your system, and updates it "
+"whenever the IP address of your PBX changes. This is used to assist remote "
+"devices to stay connected to this machine."
+msgstr ""
+
+msgid "DNS"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "De-Activate"
+msgstr ""
+
+msgid "Deployment ID"
+msgstr ""
+
+msgid "Detected External IP:"
+msgstr ""
+
+msgid "Dialplan"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Email Setup"
+msgstr ""
+
+msgid "Enable specific features associated with FREEI-221"
+msgstr ""
+
+msgid "Enabled"
+msgstr "Activado"
+
+msgid "Enter an IP Address here"
+msgstr ""
+
+msgid "Expiration Date"
+msgstr ""
+
+msgid "External DDNS Name:"
+msgstr ""
+
+msgid "FREEI-221"
+msgstr ""
+
+msgid "FTP Password"
+msgstr ""
+
+msgid "FTP Server"
+msgstr ""
+
+msgid "FTP Server Setup"
+msgstr ""
+
+msgid "FTP Username"
+msgstr ""
+
+msgid "Firewall Settings"
+msgstr ""
+
+msgid "Force IP Address:"
+msgstr ""
+
+msgid "FreePBX Versions"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "From Address"
+msgstr ""
+
+msgid "HTTP Provisioning"
+msgstr ""
+
+msgid "HTTPS Setup"
+msgstr ""
+
+msgid "Hostname"
+msgstr ""
+
+msgid ""
+"Hostname will always resolve to this IP if set. Leave blank to auto discover "
+"the public IP address of this machine."
+msgstr ""
+
+msgid "Hourly"
+msgstr ""
+
+msgid "IAX Settings"
+msgstr ""
+
+msgid "In Progress"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "Installing"
+msgstr ""
+
+msgid "International outbound call threshold percent"
+msgstr ""
+
+msgid "International outbound duration threshold percent"
+msgstr ""
+
+msgid "Intrusion Detection"
+msgstr ""
+
+msgid "Intrusion Detection Notifications"
+msgstr ""
+
+msgid "Leave blank to disable"
+msgstr ""
+
+msgid "License Information"
+msgstr ""
+
+msgid ""
+"Migration FAILED. Please resetup abnormalcallvolume in Sysadmin and remove "
+"any previous abnormalcallvolume module..."
+msgstr ""
+
+msgid ""
+"Migration complete..Attempting to uninstall Abnormalcallvolume module..."
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
+
+#, php-format
+msgid ""
+"More information on Activation is available in <a href='%s'>the Wiki</a> "
+msgstr ""
+
+msgid "Must be defined. Defaults to port 80"
+msgstr ""
+
+msgid ""
+"NOTE TO TRANSLATOR (do not translate this) - do not use double quotes (\") "
+"in the previous string, use single quotes, or a local equivalent"
+msgstr ""
+
+msgid "Network Settings"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "New Hostname"
+msgstr ""
+
+msgid "No abnormalcallvolume found.."
+msgstr ""
+
+msgid "Normal outbound call threshold percent"
+msgstr ""
+
+msgid "Normal outbound duration threshold percent"
+msgstr ""
+
+msgid "Notifications Settings"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid ""
+"On this page you can set your FTP Server information.  FTP Server is used to "
+"allow remote phones to download their configurations."
+msgstr ""
+
+msgid "PJSIP Settings"
+msgstr ""
+
+msgid "Port Management"
+msgstr ""
+
+msgid "Power Options"
+msgstr ""
+
+msgid "Quarterly"
+msgstr ""
+
+msgid "RESTful API"
+msgstr ""
+
+msgid "RESTful Phone Apps"
+msgstr ""
+
+msgid "Registered Modules"
+msgstr ""
+
+msgid "Remote Support"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Removing"
+msgstr ""
+
+msgid "SIP Settings"
+msgstr ""
+
+msgid "Safe Asterisk"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Select items for support"
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on international outbound "
+"calls."
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on normal outbound calls."
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on the average international "
+"outbound call duration."
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on the average normal "
+"outbound call duration."
+msgstr ""
+
+msgid "Storage"
+msgstr ""
+
+msgid "Storage Notifications"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Support Files"
+msgstr ""
+
+msgid "Sysadmin Module"
+msgstr ""
+
+msgid "System Admin"
+msgstr ""
+
+msgid ""
+"System Administration - COMMERCIAL MODULE REQUIRES A LICENSE FOR PRO "
+"FEATURES TO BE ENABLED ABOVE THE INCLUDED FREE FEATURES. Please visit www."
+"schmoozecom.com/oss.php System Administration - provides access to various "
+"system administration tools. This module is designed to work with some very "
+"specific distributions such as the FreePBX Distro and PBXact. There are "
+"dependencies that are not all listed in this module.xml package so the "
+"module should not be used except on the distributions that it is designed "
+"for."
+msgstr ""
+
+msgid "System Information"
+msgstr ""
+
+msgid "System Registration"
+msgstr ""
+
+msgid "System activated"
+msgstr ""
+
+msgid "System not activated"
+msgstr ""
+
+msgid "TFTP Server"
+msgstr ""
+
+#, php-format
+msgid ""
+"That account does not seem to exist. Please create a new portal account <a "
+"href='%s' target='_new'>here</a>."
+msgstr ""
+
+msgid "The addresss entered here will be set as the \"From:\" address."
+msgstr ""
+
+msgid "The hostname of your PBX."
+msgstr ""
+
+msgid ""
+"The ssh_keys RPM is currently <strong>installed</strong>. Click 'Remove' to "
+"remove it"
+msgstr ""
+
+msgid ""
+"The ssh_keys RPM is currently <strong>not installed</strong>. Click "
+"'Install' to install it."
+msgstr ""
+
+msgid ""
+"This allows you to set port numbers for various HTTP based services. The "
+"available ports you can control are as follows:"
+msgstr ""
+
+msgid ""
+"This button will attempt to release the activation from this machine. If you "
+"are going to re-apply the <u>same deployment</u> to this machine in the "
+"future, you do not need to use this button. You only need to use this button "
+"if you want to move this deployment to another, different, server."
+msgstr ""
+
+msgid ""
+"This feature is currently not licensed. For more information on this feature "
+"or to purchase this Add-On, please see the information below."
+msgstr ""
+
+msgid ""
+"This host name will always resolve to the external IP address of the system."
+msgstr ""
+
+msgid "This is a HA Machine. Network configuration disabled."
+msgstr ""
+
+msgid "This machine has been activated."
+msgstr ""
+
+#, php-format
+msgid "This machine is eligble for %d %s!"
+msgstr ""
+
+msgid "This machine is not currently activated."
+msgstr ""
+
+msgid "This machine will automatically re-activate before this date."
+msgstr ""
+
+msgid ""
+"This module will send you notifications if a remote IP has been banned from "
+"your system."
+msgstr ""
+
+msgid ""
+"This module will send you notifications if the UPS battery needs replacing."
+msgstr ""
+
+msgid "This module will send you notifications if the UPS has lost power."
+msgstr ""
+
+msgid "This module will send you notifications if the UPS has regained power."
+msgstr ""
+
+msgid ""
+"This module will send you notifications if the system lost communication to "
+"the UPS."
+msgstr ""
+
+msgid ""
+"This module will send you notifications if the system regains communication "
+"to the UPS."
+msgstr ""
+
+msgid ""
+"This module will send you notifications if your hard drives become low on "
+"space or the raid has been broke."
+msgstr ""
+
+msgid "This module will send you notifications on Asterisk Crashes."
+msgstr ""
+
+msgid ""
+"This module will send you notifications to notify you of abnormal call "
+"volumes."
+msgstr ""
+
+msgid "This section allows you to change the hostname of your machine"
+msgstr ""
+
+msgid ""
+"This will remove the activation from this machine, and reset the activation "
+"state back to un-activated. If you have any commercial modules they will "
+"immediately become disabled. You must type the word 'confirm' to proceed"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Time Zone"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "UCP"
+msgstr ""
+
+msgid "UPS Communications Failure"
+msgstr ""
+
+msgid "UPS Communications OK"
+msgstr ""
+
+msgid "UPS Off Battery"
+msgstr ""
+
+msgid "UPS On Battery"
+msgstr ""
+
+msgid "UPS Replace Battery"
+msgstr ""
+
+msgid "UPS Server"
+msgstr ""
+
+msgid "Unable to start"
+msgstr ""
+
+msgid "Unable to uninstall abnormalcallvolume..."
+msgstr ""
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Interval:"
+msgstr ""
+
+msgid "Update Licence"
+msgstr ""
+
+msgid "Update Log"
+msgstr ""
+
+msgid "Update Required"
+msgstr ""
+
+msgid "Update Status"
+msgstr ""
+
+msgid "Update hostname"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Updating"
+msgstr ""
+
+msgid "Upgrade Now"
+msgstr ""
+
+msgid "Upgrade in progress"
+msgstr ""
+
+msgid "VPN"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Would you like to activate this machine now? "
+msgstr ""
+
+msgid "XML Legacy"
+msgstr ""
+
+msgid ""
+"You need to activate your machine to install Commercial Modules. Note that "
+"some Free modules are classified as Commercial and require your machine to "
+"be activated."
+msgstr ""
+
+msgid ""
+"Your 'sysadmin' RPM is out of date. These features require the sysadmin rpm "
+"to be updated. Please run the command (as root) 'yum update sysadmin'."
+msgstr ""
+
+msgid "Yum is currently running. Retrying..."
+msgstr ""
+
+msgid "already exists"
+msgstr ""
+
+msgid "checking for ftp_server field.."
+msgstr ""
+
+msgid "checking for tftp_server field.."
+msgstr ""
+
+msgid "checking for ups_enabled field.."
+msgstr ""
+
+msgid "confirm"
+msgstr ""
+
+msgid "offer"
+msgstr ""
+
+msgid "offers"
+msgstr ""

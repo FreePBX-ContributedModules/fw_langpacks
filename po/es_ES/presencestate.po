@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-21 15:19-0400\n"
-"PO-Revision-Date: 2015-04-22 02:22+0200\n"
-"Last-Translator: Andrew <andrew.nagy@the159.com>\n"
+"POT-Creation-Date: 2015-04-24 16:48-0400\n"
+"PO-Revision-Date: 2015-04-25 08:05+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish "
 "<http://weblate.freepbx.org/projects/freepbx/presencestate/es_ES/>\n"
 "Language: es_ES\n"
@@ -51,6 +51,10 @@ msgstr "Definir acciones en un cambio de estado"
 #: page.presencestate.php:15 page.presencestate.php:82
 msgid "Delete"
 msgstr "Eliminar"
+
+#: ucp/views/settings.php:9 ucp/views/settings.php:18
+msgid "Do Not Change"
+msgstr "No Cambiar"
 
 #: ucp/Presencestate.class.php:92 ucp/Presencestate.class.php:123
 #: ucp/Presencestate.class.php:216
@@ -99,7 +103,6 @@ msgid "On UCP Login Set Status to"
 msgstr "Al entrar a UCP ponga estado en"
 
 #: ucp/Presencestate.class.php:249
-#, fuzzy
 msgid "Presence"
 msgstr "Presencia"
 
@@ -130,7 +133,7 @@ msgstr "Tipo"
 #: functions.inc.php:12 ucp/Presencestate.class.php:124
 #: ucp/Presencestate.class.php:217
 msgid "Unavailable"
-msgstr "No Disponible"
+msgstr "Indisponible"
 
 #: Presencestate.class.php:50
 msgid ""

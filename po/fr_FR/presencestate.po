@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-21 15:19-0400\n"
-"PO-Revision-Date: 2015-04-22 19:33+0200\n"
+"POT-Creation-Date: 2015-04-24 16:48-0400\n"
+"PO-Revision-Date: 2015-04-27 19:24+0200\n"
 "Last-Translator: philippebolduc <philippe@florenceinc.com>\n"
 "Language-Team: French "
 "<http://weblate.freepbx.org/projects/freepbx/presencestate/fr_FR/>\n"
@@ -33,12 +33,12 @@ msgstr "Disponible"
 #: functions.inc.php:9 ucp/Presencestate.class.php:122
 #: ucp/Presencestate.class.php:215
 msgid "Away"
-msgstr "Absence"
+msgstr "Absent"
 
 #: functions.inc.php:8 ucp/Presencestate.class.php:120
 #: ucp/Presencestate.class.php:213
 msgid "Chat"
-msgstr "Discussion"
+msgstr "Clavadarge"
 
 #: functions.inc.php:10
 msgid "DND"
@@ -51,6 +51,10 @@ msgstr "Définir les actions sur un changement d'état"
 #: page.presencestate.php:15 page.presencestate.php:82
 msgid "Delete"
 msgstr "Supprimer"
+
+#: ucp/views/settings.php:9 ucp/views/settings.php:18
+msgid "Do Not Change"
+msgstr "Ne rien changer"
 
 #: ucp/Presencestate.class.php:92 ucp/Presencestate.class.php:123
 #: ucp/Presencestate.class.php:216
@@ -108,7 +112,7 @@ msgstr "État de la présence"
 
 #: ucp/views/settings.php:2
 msgid "Presence State Settings"
-msgstr "Paramètres état de présence"
+msgstr "Paramètres état de la présence"
 
 #: page.presencestate.php:63
 msgid "Presence Status"
@@ -129,12 +133,12 @@ msgstr "Type"
 #: functions.inc.php:12 ucp/Presencestate.class.php:124
 #: ucp/Presencestate.class.php:217
 msgid "Unavailable"
-msgstr "Indisponible"
+msgstr "Non disponible"
 
 #: Presencestate.class.php:50
 msgid ""
 "Whether to allow this user to be able to change their presence state/status "
 "in UCP"
 msgstr ""
-"Permettre à cet utilisateur d'être en mesure de changer leur présence état / "
+"Permettre à cet utilisateur d'être en mesure de changer leur présence état/"
 "statut UCP"
