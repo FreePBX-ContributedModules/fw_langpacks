@@ -21,116 +21,116 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:05-0500\n"
-"PO-Revision-Date: 2015-02-04 00:39+0200\n"
-"Last-Translator: Rafael <rafael@ibinetwork.com.br>\n"
-"Language-Team: Portuguese (Brazil) <http://git.freepbx.org/projects/freepbx/"
-"campon/pt_BR/>\n"
+"PO-Revision-Date: 2015-05-03 02:49+0200\n"
+"Last-Translator: Renato <fiuza@tecnologia.inf.br>\n"
+"Language-Team: Portuguese (Brazil) "
+"<http://weblate.freepbx.org/projects/freepbx/campon/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 1.10-dev\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: functions.inc.php:410
 #, php-format
 msgid "%s Incoming Requests"
-msgstr ""
+msgstr "%s Solicitações de Entrada"
 
 #: functions.inc.php:390
 #, php-format
 msgid "%s Outgoing Requests"
-msgstr ""
+msgstr "%s Solicitações de Saída"
 
 #: functions.inc.php:385
 #, php-format
 msgid "%s sec"
-msgstr ""
+msgstr "%s seg"
 
 #: functions.inc.php:346
 msgid "1 min"
-msgstr ""
+msgstr "1 min"
 
 #: functions.inc.php:351
 msgid "10 min"
-msgstr ""
+msgstr "10 min"
 
 #: functions.inc.php:358 functions.inc.php:373
 msgid "100 min"
-msgstr ""
+msgstr "100 min"
 
 #: functions.inc.php:359 functions.inc.php:374
 msgid "2 hrs"
-msgstr ""
+msgstr "2 h"
 
 #: functions.inc.php:347
 msgid "2 min"
-msgstr ""
+msgstr "2 min"
 
 #: functions.inc.php:354 functions.inc.php:369
 msgid "20 min"
-msgstr ""
+msgstr "20 min"
 
 #: functions.inc.php:343
 msgid "20 sec"
-msgstr ""
+msgstr "20 seg"
 
 #: functions.inc.php:360 functions.inc.php:375
 msgid "3 hrs"
-msgstr ""
+msgstr "3 h"
 
 #: functions.inc.php:348
 msgid "3 min"
-msgstr ""
+msgstr "3 min"
 
 #: functions.inc.php:344
 msgid "30 sec"
-msgstr ""
+msgstr "30 seg"
 
 #: functions.inc.php:361 functions.inc.php:376
 msgid "4 hrs"
-msgstr ""
+msgstr "4 h"
 
 #: functions.inc.php:349
 msgid "4 min"
-msgstr ""
+msgstr "4 min"
 
 #: functions.inc.php:355 functions.inc.php:370
 msgid "40 min"
-msgstr ""
+msgstr "40 min"
 
 #: functions.inc.php:345
 msgid "45 sec"
-msgstr ""
+msgstr "45 seg"
 
 #: functions.inc.php:362 functions.inc.php:363 functions.inc.php:377
 #: functions.inc.php:378
 msgid "5 hrs"
-msgstr ""
+msgstr "5 h"
 
 #: functions.inc.php:350
 msgid "5 min"
-msgstr ""
+msgstr "5 min"
 
 #: functions.inc.php:364 functions.inc.php:379
 msgid "6 hrs"
-msgstr ""
+msgstr "6 h"
 
 #: functions.inc.php:356 functions.inc.php:371
 msgid "60 min"
-msgstr ""
+msgstr "60 min"
 
 #: functions.inc.php:365 functions.inc.php:380
 msgid "7 hrs"
-msgstr ""
+msgstr "7 h"
 
 #: functions.inc.php:366 functions.inc.php:381
 msgid "8 hrs"
-msgstr ""
+msgstr "8 h"
 
 #: functions.inc.php:357 functions.inc.php:372
 msgid "80 min"
-msgstr ""
+msgstr "80 min"
 
 #: campon.i18n.php:53
 msgid ""

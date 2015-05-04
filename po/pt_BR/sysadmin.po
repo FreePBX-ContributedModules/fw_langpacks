@@ -1,0 +1,755 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for sysadmin
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-01 00:02+1000\n"
+"PO-Revision-Date: 2015-05-02 12:26+0200\n"
+"Last-Translator: Renato <fiuza@tecnologia.inf.br>\n"
+"Language-Team: Portuguese (Brazil) "
+"<http://weblate.freepbx.org/projects/fpbxc/sysadmin/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+#, php-format
+msgid "%s - Access to provisioning files. Default port 84"
+msgstr "%s - Acesso a arquivos de provisionamento. Porta padrão 84"
+
+#, php-format
+msgid "%s - Default port 88"
+msgstr "%s - Porta padrão 88"
+
+#, php-format
+msgid "%s - Default port 96"
+msgstr "%s - Porta padrão 96"
+
+#, php-format
+msgid ""
+"%s - Legacy Aastra XML provisioning. <strong><i>Deprecated</i></strong>."
+msgstr ""
+"%s - Provisionamento Legado Aastra XML. <strong><i>Descontinuado</i></"
+"strong>."
+
+#, php-format
+msgid "%s - User Control Panel. Default port 81"
+msgstr "%s - Painel de Controle do Usuário. Porta padrão 81"
+
+#, php-format
+msgid "%s - Web port controlling this system. Default port 80"
+msgstr "%s - Porta web controlando este sistema. Porta padrão 80"
+
+#, php-format
+msgid "%s Server"
+msgstr "%s Servidor"
+
+#, php-format
+msgid "(%s Zend Resets remaining)"
+msgstr "(%s Redefinições Zend restantes)"
+
+msgid "(1 Zend Reset remaining)"
+msgstr "(1 Redefinição Zend restante)"
+
+#, php-format
+msgid "(Free Upgrades until %s)"
+msgstr "(Atualizações Gratuitas até %s)"
+
+msgid "(No Zend Resets remaining)"
+msgstr "(Nenhuma Redefinição Zend restante)"
+
+msgid "15 Minutes"
+msgstr "15 Minutos"
+
+msgid "30 Minutes"
+msgstr "30 Minutos"
+
+msgid ""
+"<p><strong>This is a HA Machine. You can not change the hostname of this, or "
+"the other, machine.</strong></p>"
+msgstr ""
+"<p><strong>Esta é uma Máquina HA. Você não pode mudar o hostname dela ou de "
+"outra máquina.</strong></p>"
+
+msgid ""
+"<p>HA <i>requires</i> the hostnames of both nodes to be freepbx-a and "
+"freepbx-b. Changing those hostnames will break the cluster, and destroy your "
+"settings. This is not a configurable option. Do not attempt to manually "
+"change the the hostnames of the nodes.</p>"
+msgstr ""
+"<p>HA <i>requer</i> que os hostnames de ambos os nós devem ser freepbx-a e "
+"freepbx-b. Mudar estes hostnames quebrará o cluster e destruirá suas "
+"configurações. Esta não é uma opção configurável. Não tente mudar "
+"manualmente os hostnames dos nós.</p>"
+
+msgid "ASTDB Dump"
+msgstr "Dump ASTDB"
+
+msgid "Abnormal Call Volume"
+msgstr "Volume de Chamada Anormal"
+
+msgid "Abnormal Call Volume Notifications"
+msgstr "Notificações de Volume de Chamada Anormal"
+
+msgid "Abnormalcallvolume found...Starting migration.."
+msgstr "Volume de chamada anormal encontrado...Iniciando migração.."
+
+msgid "Abnormalcallvolume uninstalled successfully..."
+msgstr "Volume de chamada anormal desinstalado com sucesso..."
+
+msgid "Activate"
+msgstr "Ativo"
+
+msgid "Activation"
+msgstr "Ativação"
+
+msgid "Activation Expiry"
+msgstr "Expiração da Ativação"
+
+msgid "Address to send alert emails to."
+msgstr "Endereço para enviar emails de alerta."
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Alert Email"
+msgstr "Email de Alerta"
+
+msgid "Annually"
+msgstr "Anualmente"
+
+msgid "Asterisk Logs"
+msgstr "Relatórios Asterisk"
+
+msgid "Buy Now"
+msgstr "Comprar Agora"
+
+msgid "Change log available at: "
+msgstr "Relatório de mudança disponível em: "
+
+msgid "Checking available resets, Please wait..."
+msgstr "Verificando redefinições disponíveis, Por favor aguarde..."
+
+msgid "Checking for abnormalcallvolume.."
+msgstr "Verificando por volume de chamada anormal.."
+
+msgid "Core system error. Can't run manager"
+msgstr "Erro de sistema de núcleo. Não pode rodar o gerenciador"
+
+msgid "Current Hostname"
+msgstr "Hostname Atual"
+
+msgid "Custom"
+msgstr "Personalizado"
+
+msgid "DDNS"
+msgstr "DDNS"
+
+msgid "DDNS Services:"
+msgstr "Serviços DDNS:"
+
+msgid ""
+"DDNS automatically assigns a unique hostname to your system, and updates it "
+"whenever the IP address of your PBX changes. This is used to assist remote "
+"devices to stay connected to this machine."
+msgstr ""
+"DDNS associa automaticamente um hostname único a seu sistema, e o atualiza "
+"quando o endereço de IP de seu PBX muda. Isto é usado para ajudar "
+"dispositivos remotos a permanecerem conectados a esta máquina."
+
+msgid "DNS"
+msgstr "DNS"
+
+msgid "Daily"
+msgstr "Diariamente"
+
+msgid "De-Activate"
+msgstr "Desativar"
+
+msgid "Deployment ID"
+msgstr "ID da Instalação"
+
+msgid "Detected External IP:"
+msgstr "IP Externo Detectado:"
+
+msgid "Dialplan"
+msgstr "Regra de Discagem"
+
+msgid "Disabled"
+msgstr "Desabilitado"
+
+msgid "Email Setup"
+msgstr "Ajustes de Email"
+
+msgid "Enable specific features associated with FREEI-221"
+msgstr "Habilitar funções específicas associadas com FREEI-221"
+
+msgid "Enabled"
+msgstr "Habilitado"
+
+msgid "Enter an IP Address here"
+msgstr "Entre Com Um Endereço IP Aqui"
+
+msgid "Expiration Date"
+msgstr "Data de Expiração"
+
+msgid "External DDNS Name:"
+msgstr "Nome DDNS Externo:"
+
+msgid "FREEI-221"
+msgstr "FREEI-221"
+
+msgid "FTP Password"
+msgstr "Senha FTP"
+
+msgid "FTP Server"
+msgstr "Servidor FTP"
+
+msgid "FTP Server Setup"
+msgstr "Ajustes Servidor FTP"
+
+msgid "FTP Username"
+msgstr "Usuário FTP"
+
+msgid "Firewall Settings"
+msgstr "Configurações de Firewall"
+
+msgid "Force IP Address:"
+msgstr "Forçar Endereço IP:"
+
+msgid "FreePBX Versions"
+msgstr "Versões FreePBX"
+
+msgid "Friday"
+msgstr "Sexta-feira"
+
+msgid "From Address"
+msgstr "De: Endereço"
+
+msgid "HTTP Provisioning"
+msgstr "Provisionamento HTTP"
+
+msgid "HTTPS Setup"
+msgstr "Ajustes HTTPS"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid ""
+"Hostname will always resolve to this IP if set. Leave blank to auto discover "
+"the public IP address of this machine."
+msgstr ""
+"O Hostname sempre resolverá para este IP se ajustado. Deixe em branco para "
+"auto descobrir o endereço IP público desta máquina."
+
+msgid "Hourly"
+msgstr "De Hora em Hora"
+
+msgid "IAX Settings"
+msgstr "Configurações IAX"
+
+msgid "In Progress"
+msgstr "Em Progresso"
+
+msgid "Install"
+msgstr "Instalar"
+
+msgid "Installing"
+msgstr "Instalando"
+
+msgid "International outbound call threshold percent"
+msgstr "Percentual limite de chamada de saída internacional"
+
+msgid "International outbound duration threshold percent"
+msgstr "Percentual limite de duração de saída internacional"
+
+msgid "Intrusion Detection"
+msgstr "Detecção de Intruso"
+
+msgid "Intrusion Detection Notifications"
+msgstr "Notificações de Detecção de Intruso"
+
+msgid "Leave blank to disable"
+msgstr "Deixe em branco para desabilitar"
+
+msgid "License Information"
+msgstr "Informações de Licença"
+
+msgid ""
+"Migration FAILED. Please resetup abnormalcallvolume in Sysadmin and remove "
+"any previous abnormalcallvolume module..."
+msgstr ""
+"A Migração FALHOU. Por favor refaça os ajustes de Volume de Chamada Anormal "
+"no Sysadmin e remova qualquer módulo de Volume de Chamada Anormal anterior..."
+
+msgid ""
+"Migration complete..Attempting to uninstall Abnormalcallvolume module..."
+msgstr ""
+"Migração completa..Tentando desinstalar o módulo Volume de Chamada Anormal..."
+
+msgid "Monday"
+msgstr "Segunda-feira"
+
+msgid "Monthly"
+msgstr "Mensalmente"
+
+#, php-format
+msgid ""
+"More information on Activation is available in <a href='%s'>the Wiki</a> "
+msgstr ""
+"Mais informações sobre Ativação estão disponíveis em <a href='%s'>the Wiki</"
+"a> "
+
+msgid "Must be defined. Defaults to port 80"
+msgstr "Deve ser definido. Padrão para a porta 80"
+
+msgid ""
+"NOTE TO TRANSLATOR (do not translate this) - do not use double quotes (\") "
+"in the previous string, use single quotes, or a local equivalent"
+msgstr ""
+"NOTA AO TRADUTOR (não traduza isto) - não use aspas duplas (\") na cadeia "
+"anterior, use aspas simples, ou um equivalente local"
+
+msgid "Network Settings"
+msgstr "Configurações de Rede"
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "New Hostname"
+msgstr "Novo Hostname"
+
+msgid "No abnormalcallvolume found.."
+msgstr "Nenhum Volume de Chanada Anormal encontrado.."
+
+msgid "Normal outbound call threshold percent"
+msgstr "Percentual limite de chamada de saída normal"
+
+msgid "Normal outbound duration threshold percent"
+msgstr "Percentual limite de duração de saída normal"
+
+msgid "Notifications Settings"
+msgstr "Configurações de Notificações"
+
+msgid "OK"
+msgstr "OK"
+
+msgid ""
+"On this page you can set your FTP Server information.  FTP Server is used to "
+"allow remote phones to download their configurations."
+msgstr ""
+"Nesta página você pode ajustar suas informações do Servidor FTP.  O Servidor "
+"FTP é usado para permitir que telefones remotos descarreguem suas "
+"configurações."
+
+msgid "PJSIP Settings"
+msgstr "Configurações PJSIP"
+
+msgid "Port Management"
+msgstr "Gerenciamento de Porta"
+
+msgid "Power Options"
+msgstr "Opções de Energia"
+
+msgid "Quarterly"
+msgstr "Trimestralmente"
+
+msgid "RESTful API"
+msgstr "API RESTful"
+
+msgid "RESTful Phone Apps"
+msgstr "Aplicativos de Fones RESTful"
+
+msgid "Registered Modules"
+msgstr "Módulos Registrados"
+
+msgid "Remote Support"
+msgstr "Suporte Remoto"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Removing"
+msgstr "Removendo"
+
+msgid "SIP Settings"
+msgstr "Configurações SIP"
+
+msgid "Safe Asterisk"
+msgstr "Asterisk Seguro"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Select items for support"
+msgstr "Selecione os itens para suporte"
+
+msgid ""
+"Select the percentage of change that must occur on international outbound "
+"calls."
+msgstr ""
+"Selecione o percentual de mudanças que deve ocorrer nas chamadas de saída "
+"internacionais."
+
+msgid ""
+"Select the percentage of change that must occur on normal outbound calls."
+msgstr ""
+"Selecione o percentual de mudanças que devem ocorrer nas chamadas de saída "
+"normais."
+
+msgid ""
+"Select the percentage of change that must occur on the average international "
+"outbound call duration."
+msgstr ""
+"Selecione o percentual que deve ocorrer na média de duração de chamada de "
+"saída internacional."
+
+msgid ""
+"Select the percentage of change that must occur on the average normal "
+"outbound call duration."
+msgstr ""
+"Selecione o percentual que deve ocorrer na média de duração de chamada de "
+"saída normal."
+
+msgid "Storage"
+msgstr "Armazenamento"
+
+msgid "Storage Notifications"
+msgstr "Notificações de Armazenamento"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "Support"
+msgstr "Suporte"
+
+msgid "Support Files"
+msgstr "Arquivos de Suporte"
+
+msgid "Sysadmin Module"
+msgstr "Módulo Sysadmin"
+
+msgid "System Admin"
+msgstr "Admin Sistema"
+
+msgid ""
+"System Administration - COMMERCIAL MODULE REQUIRES A LICENSE FOR PRO "
+"FEATURES TO BE ENABLED ABOVE THE INCLUDED FREE FEATURES. Please visit www."
+"schmoozecom.com/oss.php System Administration - provides access to various "
+"system administration tools. This module is designed to work with some very "
+"specific distributions such as the FreePBX Distro and PBXact. There are "
+"dependencies that are not all listed in this module.xml package so the "
+"module should not be used except on the distributions that it is designed "
+"for."
+msgstr ""
+"Administração de Sistema - MÓDULO COMERCIAL REQUER UMA LICENÇA PARA FUNÇÕES "
+"PRO PARA HABILITAR ACIMA DAS FUNÇÕES GRATUITAS INCLUSAS. Por favor visite "
+"Please visit www.schmoozecom.com/oss.php Administração de Sistema - fornece "
+"acesso a várias ferramentas de administração do sistema. Este módulo é "
+"desenhado para trabalhar com algumas distribuições muito específicas como a "
+"Distro FreePBX e PBXact. Existem dependências que não estão todas listadas "
+"neste pacote module.xml, portanto o módulo não deve ser usado exceto nas "
+"distribuições para as quais ele foi desenhado."
+
+msgid "System Information"
+msgstr "Informação de Sistema"
+
+msgid "System Registration"
+msgstr "Registro do sistema"
+
+msgid "System activated"
+msgstr "Sistema ativado"
+
+msgid "System not activated"
+msgstr "Sistema não ativado"
+
+msgid "TFTP Server"
+msgstr "Servidor TFTP"
+
+#, php-format
+msgid ""
+"That account does not seem to exist. Please create a new portal account <a "
+"href='%s' target='_new'>here</a>."
+msgstr ""
+"Esta conta parece não existir. Por favor crie uma nova conta do portal <a "
+"href='%s' target='_new'>aqui</a>."
+
+msgid "The addresss entered here will be set as the \"From:\" address."
+msgstr "O endereço digitado aqui será usado como o endereço \"De:\"."
+
+msgid "The hostname of your PBX."
+msgstr "O hostname de seu PBX."
+
+msgid ""
+"The ssh_keys RPM is currently <strong>installed</strong>. Click 'Remove' to "
+"remove it"
+msgstr ""
+"O RPM ssh_keys está atualmente <strong>instalado</strong>. Clique 'Remover' "
+"para removê-lo"
+
+msgid ""
+"The ssh_keys RPM is currently <strong>not installed</strong>. Click "
+"'Install' to install it."
+msgstr ""
+"O estado do RPM ssh_keys atualmente é: <strong>não instalado</strong>. "
+"Clique 'Instalar' para instalá-lo."
+
+msgid ""
+"This allows you to set port numbers for various HTTP based services. The "
+"available ports you can control are as follows:"
+msgstr ""
+"Isto permite ajustar os números de portas para diversos serviços baseados em "
+"HTTP. As portas disponíveis que você pode controlar são como seguem:"
+
+msgid ""
+"This button will attempt to release the activation from this machine. If you "
+"are going to re-apply the <u>same deployment</u> to this machine in the "
+"future, you do not need to use this button. You only need to use this button "
+"if you want to move this deployment to another, different, server."
+msgstr ""
+"Este botão tentará liberar a ativação desta máquina. Se você for reaplicar a "
+"<u>mesma instalação</u> nesta máquina no futuro você não precisa usar este "
+"botão. Você só precisar usar este botão se você desejar mover esta "
+"instalação para outro servidor diferente."
+
+msgid ""
+"This feature is currently not licensed. For more information on this feature "
+"or to purchase this Add-On, please see the information below."
+msgstr ""
+"Esta função não está licenciada atualmente. Para mais informações sobre esta "
+"função ou para comprar este adicional, por favor veja a informação abaixo."
+
+msgid ""
+"This host name will always resolve to the external IP address of the system."
+msgstr "O nome do host sempre resolverá para o endereço IP externo do sistema."
+
+msgid "This is a HA Machine. Network configuration disabled."
+msgstr "Esta é uma Máquina HA. A configuração de rede está desabilitada."
+
+msgid "This machine has been activated."
+msgstr "Esta máquina foi ativada."
+
+#, php-format
+msgid "This machine is eligble for %d %s!"
+msgstr "Esta máquina é elegível para %d %s!"
+
+msgid "This machine is not currently activated."
+msgstr "Esta máquina não está ativada atualmente."
+
+msgid "This machine will automatically re-activate before this date."
+msgstr "Esta máquina reativará automaticamente antes desta data."
+
+msgid ""
+"This module will send you notifications if a remote IP has been banned from "
+"your system."
+msgstr ""
+"Este módulo enviará notificações se um IP remoto for banido de seu sistema."
+
+msgid ""
+"This module will send you notifications if the UPS battery needs replacing."
+msgstr ""
+"Este módulo enviará notificações se a bateria UPS necessitar ser trocada."
+
+msgid "This module will send you notifications if the UPS has lost power."
+msgstr "Este módulo enviará notificações se o UPS perder a força."
+
+msgid "This module will send you notifications if the UPS has regained power."
+msgstr "Este módulo enviará notificações se o UPS recuperar a força."
+
+msgid ""
+"This module will send you notifications if the system lost communication to "
+"the UPS."
+msgstr ""
+"Este módulo enviará notificações se o sistema perder comunicação com o UPS."
+
+msgid ""
+"This module will send you notifications if the system regains communication "
+"to the UPS."
+msgstr ""
+"Este módulo enviará notificações se o sistema recuperar comunicação com o "
+"UPS."
+
+msgid ""
+"This module will send you notifications if your hard drives become low on "
+"space or the raid has been broke."
+msgstr ""
+"Este módulo enviará notificações se o disco rígido tiver com pouco espaço ou "
+"o raid for quebrado."
+
+msgid "This module will send you notifications on Asterisk Crashes."
+msgstr "Este módulo enviará notificações sobre as Paradas do Asterisk."
+
+msgid ""
+"This module will send you notifications to notify you of abnormal call "
+"volumes."
+msgstr ""
+"Este módulo enviará notificações para notificar sobre volumes de chamadas "
+"anormal."
+
+msgid "This section allows you to change the hostname of your machine"
+msgstr "Esta seção permite que você mude o hostname de sua máquina"
+
+msgid ""
+"This will remove the activation from this machine, and reset the activation "
+"state back to un-activated. If you have any commercial modules they will "
+"immediately become disabled. You must type the word 'confirm' to proceed"
+msgstr ""
+"Isto removerá a ativação desta máquina, e redefinirá o estado da ativação "
+"para desativado. Se você tiver qualquer módulo comercial eles se tornarão "
+"desativados imediatamente. Você deve digitar a palavra 'confirm' para "
+"prosseguir"
+
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+msgid "Time Zone"
+msgstr "Zona de Tempo"
+
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+msgid "UCP"
+msgstr "PCU"
+
+msgid "UPS Communications Failure"
+msgstr "Falha de Comunicação UPS"
+
+msgid "UPS Communications OK"
+msgstr "Comunicação UPS OK"
+
+msgid "UPS Off Battery"
+msgstr "UPS Sem Bateria"
+
+msgid "UPS On Battery"
+msgstr "UPS Com Bateria"
+
+msgid "UPS Replace Battery"
+msgstr "Trocar Bateria UPS"
+
+msgid "UPS Server"
+msgstr "Servidor UPS"
+
+msgid "Unable to start"
+msgstr "Incapaz de iniciar"
+
+msgid "Unable to uninstall abnormalcallvolume..."
+msgstr "Incapaz de desinstalar volume de chamada anormal..."
+
+msgid "Unknown"
+msgstr "Desconhecido"
+
+msgid "Update"
+msgstr "Atualizar"
+
+msgid "Update Interval:"
+msgstr "Intervalo de Atualização:"
+
+msgid "Update Licence"
+msgstr "Atualizar Licença"
+
+msgid "Update Log"
+msgstr "Relatório de Atualização"
+
+msgid "Update Required"
+msgstr "Atualização Necessária"
+
+msgid "Update Status"
+msgstr "Estado da Atualização"
+
+msgid "Update hostname"
+msgstr "Atualizar hostname"
+
+msgid "Update now"
+msgstr "Atualizar agora"
+
+msgid "Updates"
+msgstr "Atualizações"
+
+msgid "Updating"
+msgstr "Atualizando"
+
+msgid "Upgrade Now"
+msgstr "Atualizar Agora"
+
+msgid "Upgrade in progress"
+msgstr "Atualização em progresso"
+
+msgid "VPN"
+msgstr "VPN"
+
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+msgid "Weekly"
+msgstr "Semanalmente"
+
+msgid "Would you like to activate this machine now? "
+msgstr "Você gostaria de ativar esta máquina agora? "
+
+msgid "XML Legacy"
+msgstr "Legado XML"
+
+msgid ""
+"Your 'sysadmin' RPM is out of date. These features require the sysadmin rpm "
+"to be updated. Please run the command (as root) 'yum update sysadmin'."
+msgstr ""
+"Seu RPM 'sysadmin' está desatualizado. Estas funções necessitam que o rpm "
+"sysadmin esteja atualizado. Por favor rodde o comando (como root) 'yum "
+"update sysadmin'."
+
+msgid ""
+"Your machine must be activated to install Commercial Modules. Note that some "
+"Free modules are classified as Commercial and require your machine to be "
+"activated."
+msgstr ""
+"Sua máquina deve ser ativada para instalar Módulos Comerciais. Note que "
+"alguns módulos Gratuitos são classificados como Comercial e necessitam que "
+"sua máquina seja ativada."
+
+msgid "Yum is currently running. Retrying..."
+msgstr "Yum está rodando atualmente. Tentando de novo..."
+
+msgid "already exists"
+msgstr "já existe"
+
+msgid "checking for ftp_server field.."
+msgstr "verificando pelo campo ftp_server.."
+
+msgid "checking for tftp_server field.."
+msgstr "verificando pelo campo tftp_server.."
+
+msgid "checking for ups_enabled field.."
+msgstr "verificando pelo campo ups_enabled.."
+
+msgid "confirm"
+msgstr "Confirmar"
+
+msgid "offer"
+msgstr "oferta"
+
+msgid "offers"
+msgstr "ofertas"
+
+#~ msgid ""
+#~ "ARE YOU SURE? You have entered a DEPLOYMENT ID NUMBER into the LOCATION "
+#~ "NAME box. This is probably a mistake. Do you want to continue?"
+#~ msgstr ""
+#~ "VOCÊ TEM CERTEZA? Você entrou com um DEPOLYMENT ID NUMBER na caixa NOME "
+#~ "DO LOCAL. Isto provavelmente é um engano. Você deseja continuar?"
+
+#~ msgid ""
+#~ "You need to activate your machine to install Commercial Modules. Note "
+#~ "that some Free modules are classified as Commercial and require your "
+#~ "machine to be activated."
+#~ msgstr ""
+#~ "Você precisa ativar sua máquina para instalar Módulos Comerciais. Note "
+#~ "que alguns módulos Gratuitos são classificados como Comercial e "
+#~ "necessitam que sua máquina seja ativada."
