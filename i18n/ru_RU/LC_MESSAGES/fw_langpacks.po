@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-21 14:52-0400\n"
+"POT-Creation-Date: 2015-05-06 10:20-0400\n"
 "PO-Revision-Date: 2015-04-23 14:35+0200\n"
 "Last-Translator: Yuriy <alliancesko@gmail.com>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
@@ -27,34 +27,10 @@ msgstr ""
 msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
 msgstr "'cp -ru' из: '%s' в: '%s'...детали ниже"
 
-#: fw_langpacks.i18n.php:6
-msgid "Admin"
-msgstr "Админ"
-
-#: fw_langpacks.i18n.php:4
-msgid "Localization Updates"
-msgstr "Обновления локализаций"
-
 #: install.php:50 install.php:95
 #, php-format
 msgid "No directory %s, install script not needed"
 msgstr "Нет каталога %s, нет необходимости инсталлировать скрипт"
-
-#: fw_langpacks.i18n.php:8
-msgid ""
-"This module provides a facility to install new and updated localization "
-"translations. Localization i18n translations are still kept with each "
-"module. This provides an easy ability to bring all components up-to-date "
-"without the need to publish dozens of modules for every minor change. The "
-"localization updates used will be the latest available for all modules "
-"regardless of the current version you are running."
-msgstr ""
-"Этот модуль предоставляет возможность устанавливать новые и обновленные "
-"переводы. Переводы i18n до сих пор хранятся в каждом модуле. Это дает "
-"возможность ставить последние обновления без необходимости публиковать "
-"множество модулей для каждого незначительного изменения. Обновления "
-"локализаций используются самые свежие для всех модулей, независимо от того, "
-"с какой версией вы работаете."
 
 #: install.php:75 install.php:120
 #, php-format
@@ -81,6 +57,27 @@ msgstr "fw_langpacks установил mo файл, удаление пакет
 #: install.php:128
 msgid "fw_langpacks po file install done, removing packages from module"
 msgstr "fw_langpacks установил po файл, удаление пакетов из модуля"
+
+#~ msgid "Admin"
+#~ msgstr "Админ"
+
+#~ msgid "Localization Updates"
+#~ msgstr "Обновления локализаций"
+
+#~ msgid ""
+#~ "This module provides a facility to install new and updated localization "
+#~ "translations. Localization i18n translations are still kept with each "
+#~ "module. This provides an easy ability to bring all components up-to-date "
+#~ "without the need to publish dozens of modules for every minor change. The "
+#~ "localization updates used will be the latest available for all modules "
+#~ "regardless of the current version you are running."
+#~ msgstr ""
+#~ "Этот модуль предоставляет возможность устанавливать новые и обновленные "
+#~ "переводы. Переводы i18n до сих пор хранятся в каждом модуле. Это дает "
+#~ "возможность ставить последние обновления без необходимости публиковать "
+#~ "множество модулей для каждого незначительного изменения. Обновления "
+#~ "локализаций используются самые свежие для всех модулей, независимо от "
+#~ "того, с какой версией вы работаете."
 
 #~ msgid "FreePBX Localization Updates"
 #~ msgstr "Обновления локализации для FreePBX"
