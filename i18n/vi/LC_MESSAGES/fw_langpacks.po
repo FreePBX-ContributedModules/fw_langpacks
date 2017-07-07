@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-06 10:20-0400\n"
-"PO-Revision-Date: 2017-07-07 09:22+0200\n"
+"PO-Revision-Date: 2017-07-07 09:23+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/fw_langpacks/vi/>\n"
@@ -51,7 +51,7 @@ msgstr "fw_langpacks không thể sao chép tệp đến %s"
 
 #: install.php:83
 msgid "fw_langpacks mo file install done, removing packages from module"
-msgstr "fw_langpacks mo cài đặt tệp đã xong, đang xóa các gói ra khỏi mô đun"
+msgstr "Cài đặt tệp fw_langpacks mo đã xong, đang xóa các gói ra khỏi mô đun"
 
 #: install.php:128
 msgid "fw_langpacks po file install done, removing packages from module"
